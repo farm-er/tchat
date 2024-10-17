@@ -1,8 +1,10 @@
 package frontend
 
 import (
+	"log"
 	"os"
 
+	"github.com/farm-er/tchat/network"
 	"github.com/gdamore/tcell/v2"
 )
 
@@ -59,6 +61,9 @@ func (s *Screen) Start() {
 
 	s.screen.Show()
 
+	recChan := make(chan struct{})
+	// senChan := make(chan struct{})
+
 	for {
 
 		w, h := s.screen.Size()
@@ -76,11 +81,31 @@ func (s *Screen) Start() {
 		s.screen.ShowCursor(s.cursorX, s.cursorY)
 
 		s.screen.Show()
-		
+
+
 		switch ev := s.screen.PollEvent().(type) {
 		case *tcell.EventKey:
-			
+		
 			switch ev.Key() {
+			case tcell.KeyCtrlA:
+				// TODO: start sending signals  
+			case tcell.KeyCtrlQ:
+				// TODO: start receiving signals 
+				go func(){
+
+					if r := network.ReceiveSignals(recChan); r != nil {
+						log.Println(r)
+					}
+
+				}()
+
+			case tcell.KeyCtrlC:
+				// TODO: terminate sending signals
+			case tcell.KeyCtrlX:
+				// TODO: terminate receiving signals 
+
+				recChan <- struct{}{}
+
 			case tcell.KeyEsc:
 				s.screen.Fini()
 				os.Exit(0)
@@ -100,7 +125,7 @@ func (s *Screen) Start() {
 			case tcell.KeyBackspace, tcell.KeyBackspace2, tcell.KeyDelete:
 				if len(s.message) > 0 {
 					s.deleteText()
-				}
+				} 
 			case tcell.KeyRune:
 				s.typeText(ev.Rune())
 			}
@@ -111,7 +136,6 @@ func (s *Screen) Start() {
 }
 
 
-// BUG: when resizing the cursor's position is off 
 func (s *Screen) drawMainLayout() {
 
 	s.screen.Clear()

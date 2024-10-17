@@ -7,8 +7,10 @@ package member
 
 
 
-
 type User struct {
+
+	// Visible name to other users
+	Username string
 
 	// the member we're trying to send the message to 
 	MemFocus string
@@ -17,9 +19,24 @@ type User struct {
 	Message string
 
 	// all open conversation 
-	Members []*member
+	Members []*User
 
 }
+
+
+
+
+
+func NewUser( name string) *User {
+
+	return &User{
+		Username: name,
+	}
+
+} 
+
+
+
 
 
 
