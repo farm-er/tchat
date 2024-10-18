@@ -5,6 +5,7 @@ import (
 	"os"
 
 	"github.com/farm-er/tchat/network"
+	"github.com/farm-er/tchat/user"
 	"github.com/gdamore/tcell/v2"
 )
 
@@ -27,12 +28,15 @@ type Screen struct {
 
 	message string
 
+	user *user.User
+
+	port int
 }
 
 
 
 
-func NewScreen() ( *Screen, error){
+func NewScreen( user *user.User, port int) ( *Screen, error){
 	
 	screen, r := tcell.NewScreen()
 
@@ -40,8 +44,11 @@ func NewScreen() ( *Screen, error){
 		return nil, r
 	}
 
+	// other fields are initialized inside the after
 	return &Screen{
+		user: user,
 		screen: screen,
+		port: port,
 	}, nil
 
 }
@@ -62,7 +69,7 @@ func (s *Screen) Start() {
 	s.screen.Show()
 
 	recChan := make(chan struct{})
-	// senChan := make(chan struct{})
+	senChan := make(chan struct{})
 
 	for {
 
@@ -88,21 +95,31 @@ func (s *Screen) Start() {
 		
 			switch ev.Key() {
 			case tcell.KeyCtrlA:
-				// TODO: start sending signals  
+				// TODO: start sending signals 
+
+				go func () {
+
+					if r := network.SendSignals( senChan, s.port); r != nil {
+						log.Fatal("Error sending signals ", r)
+					}
+
+				}()
+
 			case tcell.KeyCtrlQ:
 				// TODO: start receiving signals 
 				go func(){
 
-					if r := network.ReceiveSignals(recChan); r != nil {
-						log.Println(r)
+					if r := network.ReceiveSignals(recChan, s.port); r != nil {
+						log.Fatal("Error receiving signals ", r)
 					}
 
 				}()
 
 			case tcell.KeyCtrlC:
-				// TODO: terminate sending signals
+
+				senChan <- struct{}{}
+
 			case tcell.KeyCtrlX:
-				// TODO: terminate receiving signals 
 
 				recChan <- struct{}{}
 
