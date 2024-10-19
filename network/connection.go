@@ -2,8 +2,11 @@ package network
 
 import (
 	"fmt"
+	"log"
 	"net"
 	"regexp"
+
+	"github.com/farm-er/tchat/user"
 )
 
 
@@ -12,7 +15,7 @@ const (
 	MAXSIZE = 8192
 )
 
-func InitAppServer(port int) error {
+func InitAppServer(port int, mainUser *user.User) error {
 
 	
 	l, r := net.Listen( "tcp", fmt.Sprintf(":%v", port))
@@ -20,6 +23,8 @@ func InitAppServer(port int) error {
 	if r != nil {
 		return r
 	}
+
+	defer l.Close()
 
 	for {
 
@@ -37,6 +42,7 @@ func InitAppServer(port int) error {
 			return r
 		}
 
+		addr := conn.RemoteAddr()
 
 		// TODO: need better error handling
 		go func(n int, b []byte){
@@ -49,12 +55,20 @@ func InitAppServer(port int) error {
 			if r != nil {
 				return
 			}
+			
+			// checkk if the message a connection establishing message 
+			if re.MatchString(message) {
+			
+				// TODO: add username in the message
 
-			if !re.MatchString(message) {
-				return
+				newMember := user.NewMember( addr, "username until we make one")
+
+				mainUser.Members = append(mainUser.Members, newMember)
+
+				log.Println("added new member")
+
+				return 
 			}
-
-			// TODO:  we will establish a connection
 
 		}(n, b)
 

@@ -54,14 +54,14 @@ func NewScreen( user *user.User, port int) ( *Screen, error){
 }
 
 
-func (s *Screen) Start() {
+func (s *Screen) Start( mainUser *user.User) {
 
 	s.screen.Init()
 
 	s.w, s.h = s.screen.Size()
 
 
-	s.drawMainLayout()
+	s.drawMainLayout( mainUser)
 
 	// place the cursor 
 	s.screen.ShowCursor( s.cursorX, s.cursorY)
@@ -78,8 +78,10 @@ func (s *Screen) Start() {
 		if w != s.w || h != s.h {
 			s.w = w
 			s.h = h
-			s.drawMainLayout()
+			s.drawMainLayout( mainUser)
 		}
+
+		s.drawMainLayout( mainUser)
 
 		for i, r := range s.message {
 			s.screen.SetContent( int(s.w/3)+3+i, s.h-2, r, nil, tcell.Style{})
@@ -94,6 +96,10 @@ func (s *Screen) Start() {
 		case *tcell.EventKey:
 		
 			switch ev.Key() {
+			case tcell.KeyUp:
+				mainUser.ShiftFocusP()
+			case tcell.KeyDown:
+				mainUser.ShiftFocusN()
 			case tcell.KeyCtrlA:
 				// TODO: start sending signals 
 
@@ -153,13 +159,50 @@ func (s *Screen) Start() {
 }
 
 
-func (s *Screen) drawMainLayout() {
+func (s *Screen) drawMainLayout( user *user.User) {
 
 	s.screen.Clear()
 
 	// draw separator
 	for i:= 0;i<s.h;i++ {
 		s.screen.SetContent( int(s.w/3), i, '|', nil, tcell.Style{})
+	}
+
+	// TODO: draw conversations boxes 
+
+	reachedHeight := 3
+
+	limiter := reachedHeight + 6
+
+	for i, mem  := range user.Members {
+
+		style := tcell.StyleDefault 
+
+		if i == user.MemFocus {
+			// TODO: change style for the focused conversation 
+			style = style.Foreground(tcell.ColorBlue)
+		}
+
+		// conversation box's top border 
+		for i:= 1; i<int(s.w/3)-1; i++ {
+			s.screen.SetContent( i, reachedHeight, '-', nil, style)
+			s.screen.SetContent( i, limiter, '-', nil, style)
+		}
+
+		// conversation box's username 
+		for i, v := range mem.GetUsername() {
+			s.screen.SetContent( i+5, (limiter - reachedHeight) / 2 + reachedHeight, v, nil, style)
+		}
+		
+		// conversation box's right border 
+		for i:= reachedHeight +1 ; i<limiter; i++ {
+			s.screen.SetContent( int(s.w/3)-1, i, '|', nil, style)
+			s.screen.SetContent( 0, i, '|', nil, style)
+		}
+
+		reachedHeight += 7
+		limiter = reachedHeight + 6
+
 	}
 
 	// side borders of input box 

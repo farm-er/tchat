@@ -19,7 +19,7 @@ import (
 
 func main() {
 
-
+	// setting the logging output file 
 	out, r := os.OpenFile( "log_output.log", os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0666)
 	
 	if r != nil {
@@ -36,10 +36,15 @@ func main() {
 	// initialize the user
 	user := users.NewUser(*userName)	
 
+	user.Members = append(user.Members, users.NewMember( nil, "oussama"))
+
+	user.Members = append(user.Members, users.NewMember( nil, "rayane"))
+	
+
 	// initializing the server 
 	go func ( port int) {
 
-		if r := network.InitAppServer( port); r != nil {
+		if r := network.InitAppServer( port, user); r != nil {
 			log.Fatal("Error initializing the server", r)
 		}
 
@@ -52,7 +57,7 @@ func main() {
 		log.Fatal("Error occured while initializing the screen")
 	}
 
-	s.Start()
+	s.Start( user)
 
 }
 
