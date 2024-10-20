@@ -6,11 +6,13 @@ import (
 	"net"
 	"regexp"
 	"strconv"
+
+	"github.com/farm-er/tchat/user"
 )
 
 // this function will receive signals
 // and respond with a special message so that they know we can chat
-func ReceiveSignals(inter chan struct{}, port int) error {
+func ReceiveSignals(inter chan struct{}, mainUser *user.User) error {
 
 	log.Println("starting receiving")
 	addr, r := net.ResolveUDPAddr( "udp", castingAddr)
@@ -80,7 +82,7 @@ func ReceiveSignals(inter chan struct{}, port int) error {
 		log.Println(string(b[:n]))
 
 		// TODO: Send a port in the response
-		if _, r = conn.Write([]byte(fmt.Sprintf("tchat: received:%v", port))); r != nil {
+		if _, r = conn.Write([]byte(fmt.Sprintf("tchat:received:%v:%s", mainUser.Port, mainUser.Username))); r != nil {
 			return r
 		}
 

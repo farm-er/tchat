@@ -1,11 +1,6 @@
 package user
 
 
-
-
-
-
-
 // TODO: maybe add a mutex for concurrently accessed data
 type User struct {
 
@@ -21,16 +16,20 @@ type User struct {
 	// all open conversation 
 	Members []*Member
 
+	// the port used 
+	Port int
+
 }
 
 
 
 
 
-func NewUser( name string) *User {
+func NewUser( name string, port int) *User {
 
 	return &User{
 		Username: name,
+		Port: port,
 		MemFocus: 0,
 		Message: "",
 		Members: []*Member{},
@@ -57,6 +56,13 @@ func (u *User) ShiftFocusP() {
 	return
 }
 
+// TODO: mutex for members
+func (u *User) AppendMembers(mem *Member) int {
+
+	u.Members = append(u.Members, mem)
+
+	return len(u.Members)-1
+}
 
 
 

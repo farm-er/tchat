@@ -5,6 +5,7 @@ import (
 	"log"
 	"net"
 	"regexp"
+	"strings"
 
 	"github.com/farm-er/tchat/user"
 )
@@ -31,51 +32,147 @@ func InitAppServer(port int, mainUser *user.User) error {
 		conn, r := l.Accept()
 
 		if r != nil {
-			return r
+			log.Println("Error: accepting the connection")
+			continue
 		}
-
+		
 		b := make( []byte, MAXSIZE)
-
+		
 		n, r := conn.Read(b)
 
 		if r != nil {
-			return r
+			log.Println("Error: reading from the connection")
+			continue 
 		}
 
-		addr := conn.RemoteAddr()
 
-		// TODO: need better error handling
-		go func(n int, b []byte){
+		// the data received from b[:n]
+		message := string(b[:n])
 
-			// the data received from b[:n]
-			message := string(b[:n])
+		log.Println("we got ", message)
 
-			re, r := regexp.Compile(`tchat: received:(\d+)$`)
+		// We take a format with the port and username of the sender
+		re, r := regexp.Compile(`tchat:received:(\d+):(\S+)`)
 
-			if r != nil {
-				return
-			}
+		if r != nil {
+			log.Println("Error: compiling regex expression")
+			continue 
+		}
+
+		re2, r := regexp.Compile(`tchat:established:(\S+)`)
+		
+		if r != nil {
+			log.Println("Error: compiling regex expression")
+			continue 
+		}
+
+		// checkk if the message a connection establishing message 
+		if re.MatchString(message) {
+
+			log.Println("and it's accepted")
+
+			parts := strings.Split(message, ":")
+
+			port := parts[2]
+			username := parts[3]
+
+
+			// TODO: complete the handle connection  
+			go handleConn( conn.RemoteAddr().String(), mainUser, port, username)
 			
-			// checkk if the message a connection establishing message 
-			if re.MatchString(message) {
+			conn.Close()
+		
+		} else if re2.MatchString(message) {
 			
-				// TODO: add username in the message
+			parts := strings.Split(message, ":")
 
-				newMember := user.NewMember( addr, "username until we make one")
+			go handleEstConn( conn, mainUser, parts[2])
 
-				mainUser.Members = append(mainUser.Members, newMember)
+		}
+	}
 
-				log.Println("added new member")
+}
 
-				return 
-			}
+// TODO: better error handling
+func handleConn ( addr string, mainUser *user.User, port string, username string) {
 
-		}(n, b)
+	// changing the port to the one sent in the message 
+	host, _, _ := net.SplitHostPort(addr)
+
+	// the full address 
+	addr = net.JoinHostPort(host, port)
+
+	fAddr, r := net.ResolveTCPAddr( "tcp", addr)
+
+	if r != nil {
+		log.Fatalf("Error creating member's address from %s with error %s", addr, r.Error())
+	}
+
+	// create new member
+	newMem := user.NewMember( fAddr, username)
+
+	// adding the member 
+	index := mainUser.AppendMembers( newMem)
+
+	log.Printf("Added Member: %s, address: %v", newMem.GetUsername(), newMem.GetAddr().String())
+	// buffer for reading 
+	b := make( []byte, MAXSIZE)
+
+	// TODO: create new connection to the port 
+
+	conn, r := net.Dial( "tcp", fAddr.String())
+
+	if r != nil {
+		log.Fatalf("Error connecting with the member %s on %s", mainUser.Members[index].GetUsername(), mainUser.Members[index].GetAddr().String())
+	}
+
+	defer conn.Close()
+
+	// writing to the sender so he can add us as a member 
+	if _, r = conn.Write([]byte(fmt.Sprintf("tchat:established:%s", mainUser.Username))); r != nil {
+		log.Fatalf("Error sending vital information to the member with %s", r.Error())
+	}
+
+	for {
+		n, r := conn.Read(b)
+
+		if r != nil {
+			log.Fatalf("Error reading from the last connection with %s", r.Error())
+		}
+
+		// TODO: Receive messages and pass them using the index 
+	
+		log.Println(string(b[:n]))
 
 	}
 
 }
 
+
+func handleEstConn( conn net.Conn, User *user.User, username string) {
+
+	// add the member and get his index 
+	newMem := user.NewMember( conn.RemoteAddr(), username)
+
+	_ = User.AppendMembers( newMem)
+
+	
+	b := make( []byte, MAXSIZE)
+
+	for {
+
+		n, r := conn.Read(b)
+
+		if r != nil {
+			log.Fatalf("Error reading from established connection with %s", r.Error())
+		}
+
+
+		log.Println(string(b[:n]))
+
+	}
+
+}
 
 
 

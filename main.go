@@ -34,12 +34,7 @@ func main() {
 	flag.Parse()
 	
 	// initialize the user
-	user := users.NewUser(*userName)	
-
-	user.Members = append(user.Members, users.NewMember( nil, "oussama"))
-
-	user.Members = append(user.Members, users.NewMember( nil, "rayane"))
-	
+	user := users.NewUser(*userName, *port)	
 
 	// initializing the server 
 	go func ( port int) {

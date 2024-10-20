@@ -115,7 +115,7 @@ func (s *Screen) Start( mainUser *user.User) {
 				// TODO: start receiving signals 
 				go func(){
 
-					if r := network.ReceiveSignals(recChan, s.port); r != nil {
+					if r := network.ReceiveSignals( recChan, mainUser); r != nil {
 						log.Fatal("Error receiving signals ", r)
 					}
 

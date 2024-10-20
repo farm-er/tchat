@@ -1,15 +1,32 @@
-2024/10/19 13:25:23 starting receiving
-2024/10/19 13:25:45 starting sending
-2024/10/19 13:25:45 tchat: sending:1234
-2024/10/19 13:25:45 stopped receiving
-2024/10/19 13:25:45 added new member
-2024/10/19 23:14:32 starting receiving
-2024/10/19 23:14:36 starting sending
-2024/10/19 23:14:36 tchat: sending:8080
-2024/10/19 23:14:36 stopped receiving
-2024/10/19 23:14:36 added new member
-2024/10/19 23:16:16 starting sending
-2024/10/19 23:16:22 starting receiving
-2024/10/19 23:16:22 tchat: sending:8080
-2024/10/19 23:16:22 stopped receiving
-2024/10/19 23:16:22 added new member
+2024/10/20 19:24:44 starting receiving
+2024/10/20 19:24:45 starting sending
+2024/10/20 19:24:45 tchat: sending:9000
+2024/10/20 19:24:45 stopped receiving
+2024/10/20 19:24:45 we got  tchat:received:1234:oussama
+2024/10/20 19:24:45 true
+2024/10/20 19:24:45 and it's accepted
+2024/10/20 19:24:45 Added Member: oussama, address: 192.168.0.130:1234
+2024/10/20 19:24:45 we got  tchat:received:9000:rayane
+2024/10/20 19:24:45 true
+2024/10/20 19:24:45 and it's accepted
+2024/10/20 19:24:45 Added Member: rayane, address: 192.168.0.130:9000
+2024/10/20 19:24:45 Error reading from the last connection with EOF
+2024/10/20 19:24:45 Error reading from the last connection with read tcp 192.168.0.130:39546->192.168.0.130:9000: read: connection reset by peer
+2024/10/20 21:30:28 starting receiving
+2024/10/20 21:30:29 starting sending
+2024/10/20 21:30:29 tchat: sending:1234
+2024/10/20 21:30:29 stopped receiving
+2024/10/20 21:30:29 we got  tchat:received:9000:oussama
+2024/10/20 21:30:29 and it's accepted
+2024/10/20 21:30:29 Added Member: oussama, address: 192.168.0.130:9000
+2024/10/20 21:30:29 we got  tchat:established:1234
+2024/10/20 21:30:53 Error reading from established connection with EOF
+2024/10/20 21:32:00 starting sending
+2024/10/20 21:32:01 starting receiving
+2024/10/20 21:32:02 tchat: sending:1234
+2024/10/20 21:32:02 we got  tchat:received:9000:oussama
+2024/10/20 21:32:02 stopped receiving
+2024/10/20 21:32:02 and it's accepted
+2024/10/20 21:32:02 Added Member: oussama, address: 192.168.0.130:9000
+2024/10/20 21:32:02 we got  tchat:established:rayane
+2024/10/20 21:32:07 Error reading from established connection with EOF
