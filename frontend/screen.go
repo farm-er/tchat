@@ -1,6 +1,7 @@
 package frontend
 
 import (
+	"fmt"
 	"log"
 	"os"
 
@@ -11,6 +12,8 @@ import (
 
 
 
+// BUG: the last shown message is witten over the input box 
+// BUG: handle other user's disconnection 
 
 
 
@@ -134,7 +137,20 @@ func (s *Screen) Start( mainUser *user.User) {
 				os.Exit(0)
 			case tcell.KeyEnter:
 				// TODO: send text
+			
+				if len(s.message) == 0 {
+					break
+				}
 
+				if len(mainUser.Members) > 0 {
+					err := mainUser.Members[mainUser.MemFocus].SendText( s.message, mainUser.Username)
+
+					if err != nil {
+						log.Fatalf("Error sending text with %s", err.Error())
+					}
+				}
+
+				
 				// moving the cursor 
 				s.cursorX = s.cursorX - len(s.message)
 				// cleaning the ui
@@ -219,6 +235,10 @@ func (s *Screen) drawMainLayout( user *user.User) {
 	s.cursorX = int(s.w/3)+3+len(s.message)
 	s.cursorY = s.h-2
 
+	// draw conversation 
+
+	s.drawConv( user)
+
 }
 
 
@@ -240,6 +260,50 @@ func (s *Screen) deleteText() {
 	s.cursorX -= 1 
 
 	s.screen.ShowCursor( s.cursorX, s.cursorY)
+
+}
+
+
+func (s *Screen) drawConv( mainUser *user.User) {
+
+
+	if len(mainUser.Members) <= mainUser.MemFocus {
+		return
+	}
+
+
+	// TODO: get the area dimentions for texts 
+
+
+
+
+	// 3 for input box and 1 to start in
+	h := s.h - 3
+
+
+	// TODO: determine how many text will be printed
+
+	messages := mainUser.Members[mainUser.MemFocus].GetLastMessages( h/2)
+
+	senderStyle := tcell.StyleDefault.Foreground(tcell.ColorBlue)
+
+	// TODO: print them
+
+	for i, msg := range messages {
+
+		x := (s.w/3)+1
+
+		s.screen.SetContent( x, (i+1)*2, rune(msg.Sender[0]),[]rune( fmt.Sprintf("%s: ", msg.Sender[1:])), senderStyle)
+	
+		x += len(msg.Sender)+2
+
+		for _, v := range msg.GetContent() {
+			
+			s.screen.SetContent( x, (i+1)*2, v, nil, tcell.Style{})
+			x++
+		}
+
+	}
 
 }
 

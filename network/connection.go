@@ -76,6 +76,18 @@ func InitAppServer(port int, mainUser *user.User) error {
 			port := parts[2]
 			username := parts[3]
 
+			exi := false
+
+			for _, usr := range mainUser.Members {
+				if usr.GetUsername() == username {
+					exi = true
+					break
+				}
+			}
+
+			if exi {
+				continue
+			}
 
 			// TODO: complete the handle connection  
 			go handleConn( conn.RemoteAddr().String(), mainUser, port, username)
@@ -108,14 +120,7 @@ func handleConn ( addr string, mainUser *user.User, port string, username string
 		log.Fatalf("Error creating member's address from %s with error %s", addr, r.Error())
 	}
 
-	// create new member
-	newMem := user.NewMember( fAddr, username)
-
-	// adding the member 
-	index := mainUser.AppendMembers( newMem)
-
-	log.Printf("Added Member: %s, address: %v", newMem.GetUsername(), newMem.GetAddr().String())
-	// buffer for reading 
+		// buffer for reading 
 	b := make( []byte, MAXSIZE)
 
 	// TODO: create new connection to the port 
@@ -123,10 +128,18 @@ func handleConn ( addr string, mainUser *user.User, port string, username string
 	conn, r := net.Dial( "tcp", fAddr.String())
 
 	if r != nil {
-		log.Fatalf("Error connecting with the member %s on %s", mainUser.Members[index].GetUsername(), mainUser.Members[index].GetAddr().String())
+		log.Fatalf("Error connecting with the member %s on %s", username, fAddr.String())
 	}
 
 	defer conn.Close()
+	
+	// create new member
+	newMem := user.NewMember( fAddr, username, conn)
+
+	// adding the member 
+	index := mainUser.AppendMembers( newMem)
+
+	log.Printf("Added Member: %s, address: %v", newMem.GetUsername(), newMem.GetAddr().String())
 
 	// writing to the sender so he can add us as a member 
 	if _, r = conn.Write([]byte(fmt.Sprintf("tchat:established:%s", mainUser.Username))); r != nil {
@@ -142,6 +155,8 @@ func handleConn ( addr string, mainUser *user.User, port string, username string
 
 		// TODO: Receive messages and pass them using the index 
 	
+		mainUser.ReceiveText( string(b[:n]), index)
+		
 		log.Println(string(b[:n]))
 
 	}
@@ -152,9 +167,9 @@ func handleConn ( addr string, mainUser *user.User, port string, username string
 func handleEstConn( conn net.Conn, User *user.User, username string) {
 
 	// add the member and get his index 
-	newMem := user.NewMember( conn.RemoteAddr(), username)
+	newMem := user.NewMember( conn.RemoteAddr(), username, conn)
 
-	_ = User.AppendMembers( newMem)
+	index := User.AppendMembers( newMem)
 
 	
 	b := make( []byte, MAXSIZE)
@@ -167,6 +182,7 @@ func handleEstConn( conn net.Conn, User *user.User, username string) {
 			log.Fatalf("Error reading from established connection with %s", r.Error())
 		}
 
+		User.ReceiveText( string(b[:n]), index)
 
 		log.Println(string(b[:n]))
 

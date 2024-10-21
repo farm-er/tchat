@@ -65,4 +65,15 @@ func (u *User) AppendMembers(mem *Member) int {
 }
 
 
+func (u *User) ReceiveText( mes string, index int) {
+
+	u.Members[index].con.Messages = append(u.Members[index].con.Messages, &Message{
+		Sender: u.Members[index].GetUsername(),
+		Receiver: u.Username,
+		content: mes,
+	})
+
+}
+
+
 

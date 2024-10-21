@@ -1,32 +1,1547 @@
-2024/10/20 19:24:44 starting receiving
-2024/10/20 19:24:45 starting sending
-2024/10/20 19:24:45 tchat: sending:9000
-2024/10/20 19:24:45 stopped receiving
-2024/10/20 19:24:45 we got  tchat:received:1234:oussama
-2024/10/20 19:24:45 true
-2024/10/20 19:24:45 and it's accepted
-2024/10/20 19:24:45 Added Member: oussama, address: 192.168.0.130:1234
-2024/10/20 19:24:45 we got  tchat:received:9000:rayane
-2024/10/20 19:24:45 true
-2024/10/20 19:24:45 and it's accepted
-2024/10/20 19:24:45 Added Member: rayane, address: 192.168.0.130:9000
-2024/10/20 19:24:45 Error reading from the last connection with EOF
-2024/10/20 19:24:45 Error reading from the last connection with read tcp 192.168.0.130:39546->192.168.0.130:9000: read: connection reset by peer
-2024/10/20 21:30:28 starting receiving
-2024/10/20 21:30:29 starting sending
-2024/10/20 21:30:29 tchat: sending:1234
-2024/10/20 21:30:29 stopped receiving
-2024/10/20 21:30:29 we got  tchat:received:9000:oussama
-2024/10/20 21:30:29 and it's accepted
-2024/10/20 21:30:29 Added Member: oussama, address: 192.168.0.130:9000
-2024/10/20 21:30:29 we got  tchat:established:1234
-2024/10/20 21:30:53 Error reading from established connection with EOF
-2024/10/20 21:32:00 starting sending
-2024/10/20 21:32:01 starting receiving
-2024/10/20 21:32:02 tchat: sending:1234
-2024/10/20 21:32:02 we got  tchat:received:9000:oussama
-2024/10/20 21:32:02 stopped receiving
-2024/10/20 21:32:02 and it's accepted
-2024/10/20 21:32:02 Added Member: oussama, address: 192.168.0.130:9000
-2024/10/20 21:32:02 we got  tchat:established:rayane
-2024/10/20 21:32:07 Error reading from established connection with EOF
+2024/10/21 19:32:29 starting receiving
+2024/10/21 19:32:32 starting sending
+2024/10/21 19:32:32 tchat: sending:1234
+2024/10/21 19:32:32 we got  tchat:received:9000:oussama
+2024/10/21 19:32:32 and it's accepted
+2024/10/21 19:32:32 Added Member: oussama, address: 192.168.0.130:9000
+2024/10/21 19:32:32 we got  tchat:established:rayane
+2024/10/21 19:32:33 Error reading from established connection with EOF
+2024/10/21 19:36:26 starting sending
+2024/10/21 19:36:28 starting receiving
+2024/10/21 19:36:29 tchat: sending:1234
+2024/10/21 19:36:29 we got  tchat:received:9000:oussama
+2024/10/21 19:36:29 and it's accepted
+2024/10/21 19:36:29 Added Member: oussama, address: 192.168.0.130:9000
+2024/10/21 19:36:29 we got  tchat:established:rayane
+2024/10/21 19:36:30 tchat: sending:1234
+2024/10/21 19:36:30 we got  tchat:received:9000:oussama
+2024/10/21 19:36:30 and it's accepted
+2024/10/21 19:36:31 tchat: sending:1234
+2024/10/21 19:36:31 we got  tchat:received:9000:oussama
+2024/10/21 19:36:31 and it's accepted
+2024/10/21 19:36:32 tchat: sending:1234
+2024/10/21 19:36:32 we got  tchat:received:9000:oussama
+2024/10/21 19:36:32 and it's accepted
+2024/10/21 19:36:33 tchat: sending:1234
+2024/10/21 19:36:33 we got  tchat:received:9000:oussama
+2024/10/21 19:36:33 and it's accepted
+2024/10/21 19:36:34 tchat: sending:1234
+2024/10/21 19:36:34 we got  tchat:received:9000:oussama
+2024/10/21 19:36:34 and it's accepted
+2024/10/21 19:36:35 tchat: sending:1234
+2024/10/21 19:36:35 we got  tchat:received:9000:oussama
+2024/10/21 19:36:35 and it's accepted
+2024/10/21 19:36:36 tchat: sending:1234
+2024/10/21 19:36:36 we got  tchat:received:9000:oussama
+2024/10/21 19:36:36 and it's accepted
+2024/10/21 19:36:37 tchat: sending:1234
+2024/10/21 19:36:37 we got  tchat:received:9000:oussama
+2024/10/21 19:36:37 and it's accepted
+2024/10/21 19:36:38 tchat: sending:1234
+2024/10/21 19:36:38 we got  tchat:received:9000:oussama
+2024/10/21 19:36:38 and it's accepted
+2024/10/21 19:36:39 tchat: sending:1234
+2024/10/21 19:36:39 we got  tchat:received:9000:oussama
+2024/10/21 19:36:39 and it's accepted
+2024/10/21 19:36:40 tchat: sending:1234
+2024/10/21 19:36:40 we got  tchat:received:9000:oussama
+2024/10/21 19:36:40 and it's accepted
+2024/10/21 19:36:41 tchat: sending:1234
+2024/10/21 19:36:41 we got  tchat:received:9000:oussama
+2024/10/21 19:36:41 and it's accepted
+2024/10/21 19:36:42 tchat: sending:1234
+2024/10/21 19:36:42 we got  tchat:received:9000:oussama
+2024/10/21 19:36:42 and it's accepted
+2024/10/21 19:36:43 tchat: sending:1234
+2024/10/21 19:36:43 we got  tchat:received:9000:oussama
+2024/10/21 19:36:43 and it's accepted
+2024/10/21 19:36:44 tchat: sending:1234
+2024/10/21 19:36:44 we got  tchat:received:9000:oussama
+2024/10/21 19:36:44 and it's accepted
+2024/10/21 19:36:45 tchat: sending:1234
+2024/10/21 19:36:45 we got  tchat:received:9000:oussama
+2024/10/21 19:36:45 and it's accepted
+2024/10/21 19:36:46 ana m9ewed
+2024/10/21 19:36:46 tchat: sending:1234
+2024/10/21 19:36:46 we got  tchat:received:9000:oussama
+2024/10/21 19:36:46 and it's accepted
+2024/10/21 19:36:47 tchat: sending:1234
+2024/10/21 19:36:47 we got  tchat:received:9000:oussama
+2024/10/21 19:36:47 and it's accepted
+2024/10/21 19:36:48 tchat: sending:1234
+2024/10/21 19:36:48 we got  tchat:received:9000:oussama
+2024/10/21 19:36:48 and it's accepted
+2024/10/21 19:36:49 tchat: sending:1234
+2024/10/21 19:36:49 we got  tchat:received:9000:oussama
+2024/10/21 19:36:49 and it's accepted
+2024/10/21 19:36:50 tchat: sending:1234
+2024/10/21 19:36:50 we got  tchat:received:9000:oussama
+2024/10/21 19:36:50 and it's accepted
+2024/10/21 19:36:50 slkjhdskjhd
+2024/10/21 19:36:51 tchat: sending:1234
+2024/10/21 19:36:51 we got  tchat:received:9000:oussama
+2024/10/21 19:36:51 and it's accepted
+2024/10/21 19:36:52 tchat: sending:1234
+2024/10/21 19:36:52 we got  tchat:received:9000:oussama
+2024/10/21 19:36:52 and it's accepted
+2024/10/21 19:36:53 tchat: sending:1234
+2024/10/21 19:36:53 we got  tchat:received:9000:oussama
+2024/10/21 19:36:53 and it's accepted
+2024/10/21 19:36:54 tchat: sending:1234
+2024/10/21 19:36:54 we got  tchat:received:9000:oussama
+2024/10/21 19:36:54 and it's accepted
+2024/10/21 19:36:55 tchat: sending:1234
+2024/10/21 19:36:55 we got  tchat:received:9000:oussama
+2024/10/21 19:36:55 and it's accepted
+2024/10/21 19:36:56 tchat: sending:1234
+2024/10/21 19:36:56 we got  tchat:received:9000:oussama
+2024/10/21 19:36:56 and it's accepted
+2024/10/21 19:36:57 tchat: sending:1234
+2024/10/21 19:36:57 we got  tchat:received:9000:oussama
+2024/10/21 19:36:57 and it's accepted
+2024/10/21 19:36:58 tchat: sending:1234
+2024/10/21 19:36:58 we got  tchat:received:9000:oussama
+2024/10/21 19:36:58 and it's accepted
+2024/10/21 19:36:59 tchat: sending:1234
+2024/10/21 19:36:59 we got  tchat:received:9000:oussama
+2024/10/21 19:36:59 and it's accepted
+2024/10/21 19:37:00 tchat: sending:1234
+2024/10/21 19:37:00 we got  tchat:received:9000:oussama
+2024/10/21 19:37:00 and it's accepted
+2024/10/21 19:37:01 tchat: sending:1234
+2024/10/21 19:37:01 we got  tchat:received:9000:oussama
+2024/10/21 19:37:01 and it's accepted
+2024/10/21 19:37:02 tchat: sending:1234
+2024/10/21 19:37:02 we got  tchat:received:9000:oussama
+2024/10/21 19:37:02 and it's accepted
+2024/10/21 19:37:03 tchat: sending:1234
+2024/10/21 19:37:03 we got  tchat:received:9000:oussama
+2024/10/21 19:37:03 and it's accepted
+2024/10/21 19:37:04 tchat: sending:1234
+2024/10/21 19:37:04 we got  tchat:received:9000:oussama
+2024/10/21 19:37:04 and it's accepted
+2024/10/21 19:37:05 tchat: sending:1234
+2024/10/21 19:37:05 we got  tchat:received:9000:oussama
+2024/10/21 19:37:05 and it's accepted
+2024/10/21 19:37:05 receiver djkhdf
+2024/10/21 19:37:06 tchat: sending:1234
+2024/10/21 19:37:06 we got  tchat:received:9000:oussama
+2024/10/21 19:37:06 and it's accepted
+2024/10/21 19:37:07 tchat: sending:1234
+2024/10/21 19:37:07 we got  tchat:received:9000:oussama
+2024/10/21 19:37:07 and it's accepted
+2024/10/21 19:37:08 tchat: sending:1234
+2024/10/21 19:37:08 we got  tchat:received:9000:oussama
+2024/10/21 19:37:08 and it's accepted
+2024/10/21 19:37:09 tchat: sending:1234
+2024/10/21 19:37:09 we got  tchat:received:9000:oussama
+2024/10/21 19:37:09 and it's accepted
+2024/10/21 19:37:10 tchat: sending:1234
+2024/10/21 19:37:10 we got  tchat:received:9000:oussama
+2024/10/21 19:37:10 and it's accepted
+2024/10/21 19:37:11 tchat: sending:1234
+2024/10/21 19:37:11 we got  tchat:received:9000:oussama
+2024/10/21 19:37:11 and it's accepted
+2024/10/21 19:37:12 tchat: sending:1234
+2024/10/21 19:37:12 we got  tchat:received:9000:oussama
+2024/10/21 19:37:12 and it's accepted
+2024/10/21 19:37:13 tchat: sending:1234
+2024/10/21 19:37:13 we got  tchat:received:9000:oussama
+2024/10/21 19:37:13 and it's accepted
+2024/10/21 19:37:14 tchat: sending:1234
+2024/10/21 19:37:14 we got  tchat:received:9000:oussama
+2024/10/21 19:37:14 and it's accepted
+2024/10/21 19:37:15 tchat: sending:1234
+2024/10/21 19:37:15 we got  tchat:received:9000:oussama
+2024/10/21 19:37:15 and it's accepted
+2024/10/21 19:37:16 tchat: sending:1234
+2024/10/21 19:37:16 we got  tchat:received:9000:oussama
+2024/10/21 19:37:16 and it's accepted
+2024/10/21 19:37:17 tchat: sending:1234
+2024/10/21 19:37:17 we got  tchat:received:9000:oussama
+2024/10/21 19:37:17 and it's accepted
+2024/10/21 19:37:18 tchat: sending:1234
+2024/10/21 19:37:18 we got  tchat:received:9000:oussama
+2024/10/21 19:37:18 and it's accepted
+2024/10/21 19:37:19 tchat: sending:1234
+2024/10/21 19:37:19 we got  tchat:received:9000:oussama
+2024/10/21 19:37:19 and it's accepted
+2024/10/21 19:37:20 tchat: sending:1234
+2024/10/21 19:37:20 we got  tchat:received:9000:oussama
+2024/10/21 19:37:20 and it's accepted
+2024/10/21 19:37:21 tchat: sending:1234
+2024/10/21 19:37:21 we got  tchat:received:9000:oussama
+2024/10/21 19:37:21 and it's accepted
+2024/10/21 19:37:22 tchat: sending:1234
+2024/10/21 19:37:22 we got  tchat:received:9000:oussama
+2024/10/21 19:37:22 and it's accepted
+2024/10/21 19:37:23 tchat: sending:1234
+2024/10/21 19:37:23 we got  tchat:received:9000:oussama
+2024/10/21 19:37:23 and it's accepted
+2024/10/21 19:37:24 tchat: sending:1234
+2024/10/21 19:37:24 we got  tchat:received:9000:oussama
+2024/10/21 19:37:24 and it's accepted
+2024/10/21 19:37:25 tchat: sending:1234
+2024/10/21 19:37:25 we got  tchat:received:9000:oussama
+2024/10/21 19:37:25 and it's accepted
+2024/10/21 19:37:26 tchat: sending:1234
+2024/10/21 19:37:26 we got  tchat:received:9000:oussama
+2024/10/21 19:37:26 and it's accepted
+2024/10/21 19:37:27 tchat: sending:1234
+2024/10/21 19:37:27 we got  tchat:received:9000:oussama
+2024/10/21 19:37:27 and it's accepted
+2024/10/21 19:37:28 tchat: sending:1234
+2024/10/21 19:37:28 we got  tchat:received:9000:oussama
+2024/10/21 19:37:28 and it's accepted
+2024/10/21 19:37:29 tchat: sending:1234
+2024/10/21 19:37:29 we got  tchat:received:9000:oussama
+2024/10/21 19:37:29 and it's accepted
+2024/10/21 19:37:30 tchat: sending:1234
+2024/10/21 19:37:30 we got  tchat:received:9000:oussama
+2024/10/21 19:37:30 and it's accepted
+2024/10/21 19:37:31 tchat: sending:1234
+2024/10/21 19:37:31 we got  tchat:received:9000:oussama
+2024/10/21 19:37:31 and it's accepted
+2024/10/21 19:37:32 tchat: sending:1234
+2024/10/21 19:37:32 we got  tchat:received:9000:oussama
+2024/10/21 19:37:32 and it's accepted
+2024/10/21 19:37:33 tchat: sending:1234
+2024/10/21 19:37:33 we got  tchat:received:9000:oussama
+2024/10/21 19:37:33 and it's accepted
+2024/10/21 19:37:34 tchat: sending:1234
+2024/10/21 19:37:34 we got  tchat:received:9000:oussama
+2024/10/21 19:37:34 and it's accepted
+2024/10/21 19:37:35 tchat: sending:1234
+2024/10/21 19:37:35 we got  tchat:received:9000:oussama
+2024/10/21 19:37:35 and it's accepted
+2024/10/21 19:37:36 tchat: sending:1234
+2024/10/21 19:37:36 we got  tchat:received:9000:oussama
+2024/10/21 19:37:36 and it's accepted
+2024/10/21 19:37:37 tchat: sending:1234
+2024/10/21 19:37:37 we got  tchat:received:9000:oussama
+2024/10/21 19:37:37 and it's accepted
+2024/10/21 19:37:38 tchat: sending:1234
+2024/10/21 19:37:38 we got  tchat:received:9000:oussama
+2024/10/21 19:37:38 and it's accepted
+2024/10/21 19:37:39 tchat: sending:1234
+2024/10/21 19:37:39 we got  tchat:received:9000:oussama
+2024/10/21 19:37:39 and it's accepted
+2024/10/21 19:37:40 tchat: sending:1234
+2024/10/21 19:37:40 we got  tchat:received:9000:oussama
+2024/10/21 19:37:40 and it's accepted
+2024/10/21 19:37:41 tchat: sending:1234
+2024/10/21 19:37:41 we got  tchat:received:9000:oussama
+2024/10/21 19:37:41 and it's accepted
+2024/10/21 19:37:42 tchat: sending:1234
+2024/10/21 19:37:42 we got  tchat:received:9000:oussama
+2024/10/21 19:37:42 and it's accepted
+2024/10/21 19:37:43 tchat: sending:1234
+2024/10/21 19:37:43 we got  tchat:received:9000:oussama
+2024/10/21 19:37:43 and it's accepted
+2024/10/21 19:37:44 tchat: sending:1234
+2024/10/21 19:37:44 we got  tchat:received:9000:oussama
+2024/10/21 19:37:44 and it's accepted
+2024/10/21 19:37:45 tchat: sending:1234
+2024/10/21 19:37:45 we got  tchat:received:9000:oussama
+2024/10/21 19:37:45 and it's accepted
+2024/10/21 19:37:46 tchat: sending:1234
+2024/10/21 19:37:46 we got  tchat:received:9000:oussama
+2024/10/21 19:37:46 and it's accepted
+2024/10/21 19:37:47 tchat: sending:1234
+2024/10/21 19:37:47 we got  tchat:received:9000:oussama
+2024/10/21 19:37:47 and it's accepted
+2024/10/21 19:37:48 tchat: sending:1234
+2024/10/21 19:37:48 we got  tchat:received:9000:oussama
+2024/10/21 19:37:48 and it's accepted
+2024/10/21 19:37:49 tchat: sending:1234
+2024/10/21 19:37:49 we got  tchat:received:9000:oussama
+2024/10/21 19:37:49 and it's accepted
+2024/10/21 19:37:50 tchat: sending:1234
+2024/10/21 19:37:50 we got  tchat:received:9000:oussama
+2024/10/21 19:37:50 and it's accepted
+2024/10/21 19:37:51 tchat: sending:1234
+2024/10/21 19:37:51 we got  tchat:received:9000:oussama
+2024/10/21 19:37:51 and it's accepted
+2024/10/21 19:37:52 tchat: sending:1234
+2024/10/21 19:37:52 we got  tchat:received:9000:oussama
+2024/10/21 19:37:52 and it's accepted
+2024/10/21 19:37:53 tchat: sending:1234
+2024/10/21 19:37:53 we got  tchat:received:9000:oussama
+2024/10/21 19:37:53 and it's accepted
+2024/10/21 19:37:54 tchat: sending:1234
+2024/10/21 19:37:54 we got  tchat:received:9000:oussama
+2024/10/21 19:37:54 and it's accepted
+2024/10/21 19:37:55 tchat: sending:1234
+2024/10/21 19:37:55 we got  tchat:received:9000:oussama
+2024/10/21 19:37:55 and it's accepted
+2024/10/21 19:37:56 tchat: sending:1234
+2024/10/21 19:37:56 we got  tchat:received:9000:oussama
+2024/10/21 19:37:56 and it's accepted
+2024/10/21 19:37:57 tchat: sending:1234
+2024/10/21 19:37:57 we got  tchat:received:9000:oussama
+2024/10/21 19:37:57 and it's accepted
+2024/10/21 19:37:58 tchat: sending:1234
+2024/10/21 19:37:58 we got  tchat:received:9000:oussama
+2024/10/21 19:37:58 and it's accepted
+2024/10/21 19:37:59 tchat: sending:1234
+2024/10/21 19:37:59 we got  tchat:received:9000:oussama
+2024/10/21 19:37:59 and it's accepted
+2024/10/21 19:38:00 tchat: sending:1234
+2024/10/21 19:38:00 we got  tchat:received:9000:oussama
+2024/10/21 19:38:00 and it's accepted
+2024/10/21 19:38:01 tchat: sending:1234
+2024/10/21 19:38:01 we got  tchat:received:9000:oussama
+2024/10/21 19:38:01 and it's accepted
+2024/10/21 19:38:02 tchat: sending:1234
+2024/10/21 19:38:02 we got  tchat:received:9000:oussama
+2024/10/21 19:38:02 and it's accepted
+2024/10/21 19:38:03 tchat: sending:1234
+2024/10/21 19:38:03 we got  tchat:received:9000:oussama
+2024/10/21 19:38:03 and it's accepted
+2024/10/21 19:38:04 tchat: sending:1234
+2024/10/21 19:38:04 we got  tchat:received:9000:oussama
+2024/10/21 19:38:04 and it's accepted
+2024/10/21 19:38:05 tchat: sending:1234
+2024/10/21 19:38:05 we got  tchat:received:9000:oussama
+2024/10/21 19:38:05 and it's accepted
+2024/10/21 19:38:06 tchat: sending:1234
+2024/10/21 19:38:06 we got  tchat:received:9000:oussama
+2024/10/21 19:38:06 and it's accepted
+2024/10/21 19:38:07 tchat: sending:1234
+2024/10/21 19:38:07 we got  tchat:received:9000:oussama
+2024/10/21 19:38:07 and it's accepted
+2024/10/21 19:38:08 tchat: sending:1234
+2024/10/21 19:38:08 we got  tchat:received:9000:oussama
+2024/10/21 19:38:08 and it's accepted
+2024/10/21 19:38:09 tchat: sending:1234
+2024/10/21 19:38:09 we got  tchat:received:9000:oussama
+2024/10/21 19:38:09 and it's accepted
+2024/10/21 19:38:10 tchat: sending:1234
+2024/10/21 19:38:10 we got  tchat:received:9000:oussama
+2024/10/21 19:38:10 and it's accepted
+2024/10/21 19:38:11 tchat: sending:1234
+2024/10/21 19:38:11 we got  tchat:received:9000:oussama
+2024/10/21 19:38:11 and it's accepted
+2024/10/21 19:38:12 tchat: sending:1234
+2024/10/21 19:38:12 we got  tchat:received:9000:oussama
+2024/10/21 19:38:12 and it's accepted
+2024/10/21 19:38:13 tchat: sending:1234
+2024/10/21 19:38:13 we got  tchat:received:9000:oussama
+2024/10/21 19:38:13 and it's accepted
+2024/10/21 19:38:14 tchat: sending:1234
+2024/10/21 19:38:14 we got  tchat:received:9000:oussama
+2024/10/21 19:38:14 and it's accepted
+2024/10/21 19:38:15 tchat: sending:1234
+2024/10/21 19:38:15 we got  tchat:received:9000:oussama
+2024/10/21 19:38:15 and it's accepted
+2024/10/21 19:38:16 tchat: sending:1234
+2024/10/21 19:38:16 we got  tchat:received:9000:oussama
+2024/10/21 19:38:16 and it's accepted
+2024/10/21 19:38:17 tchat: sending:1234
+2024/10/21 19:38:17 we got  tchat:received:9000:oussama
+2024/10/21 19:38:17 and it's accepted
+2024/10/21 19:38:18 tchat: sending:1234
+2024/10/21 19:38:18 we got  tchat:received:9000:oussama
+2024/10/21 19:38:18 and it's accepted
+2024/10/21 19:38:19 tchat: sending:1234
+2024/10/21 19:38:19 we got  tchat:received:9000:oussama
+2024/10/21 19:38:19 and it's accepted
+2024/10/21 19:38:20 tchat: sending:1234
+2024/10/21 19:38:20 we got  tchat:received:9000:oussama
+2024/10/21 19:38:20 and it's accepted
+2024/10/21 19:38:21 tchat: sending:1234
+2024/10/21 19:38:21 we got  tchat:received:9000:oussama
+2024/10/21 19:38:21 and it's accepted
+2024/10/21 19:38:22 tchat: sending:1234
+2024/10/21 19:38:22 we got  tchat:received:9000:oussama
+2024/10/21 19:38:22 and it's accepted
+2024/10/21 19:38:23 tchat: sending:1234
+2024/10/21 19:38:23 we got  tchat:received:9000:oussama
+2024/10/21 19:38:23 and it's accepted
+2024/10/21 19:38:24 tchat: sending:1234
+2024/10/21 19:38:24 we got  tchat:received:9000:oussama
+2024/10/21 19:38:24 and it's accepted
+2024/10/21 19:38:25 tchat: sending:1234
+2024/10/21 19:38:25 we got  tchat:received:9000:oussama
+2024/10/21 19:38:25 and it's accepted
+2024/10/21 19:38:26 tchat: sending:1234
+2024/10/21 19:38:26 we got  tchat:received:9000:oussama
+2024/10/21 19:38:26 and it's accepted
+2024/10/21 19:38:27 tchat: sending:1234
+2024/10/21 19:38:27 we got  tchat:received:9000:oussama
+2024/10/21 19:38:27 and it's accepted
+2024/10/21 19:38:28 tchat: sending:1234
+2024/10/21 19:38:28 we got  tchat:received:9000:oussama
+2024/10/21 19:38:28 and it's accepted
+2024/10/21 19:38:29 tchat: sending:1234
+2024/10/21 19:38:29 we got  tchat:received:9000:oussama
+2024/10/21 19:38:29 and it's accepted
+2024/10/21 19:38:30 tchat: sending:1234
+2024/10/21 19:38:30 we got  tchat:received:9000:oussama
+2024/10/21 19:38:30 and it's accepted
+2024/10/21 19:38:31 tchat: sending:1234
+2024/10/21 19:38:31 we got  tchat:received:9000:oussama
+2024/10/21 19:38:31 and it's accepted
+2024/10/21 19:38:32 tchat: sending:1234
+2024/10/21 19:38:32 we got  tchat:received:9000:oussama
+2024/10/21 19:38:32 and it's accepted
+2024/10/21 19:38:33 tchat: sending:1234
+2024/10/21 19:38:33 we got  tchat:received:9000:oussama
+2024/10/21 19:38:33 and it's accepted
+2024/10/21 19:38:34 tchat: sending:1234
+2024/10/21 19:38:34 we got  tchat:received:9000:oussama
+2024/10/21 19:38:34 and it's accepted
+2024/10/21 19:38:35 tchat: sending:1234
+2024/10/21 19:38:35 we got  tchat:received:9000:oussama
+2024/10/21 19:38:35 and it's accepted
+2024/10/21 19:38:36 tchat: sending:1234
+2024/10/21 19:38:36 we got  tchat:received:9000:oussama
+2024/10/21 19:38:36 and it's accepted
+2024/10/21 19:38:37 tchat: sending:1234
+2024/10/21 19:38:37 we got  tchat:received:9000:oussama
+2024/10/21 19:38:37 and it's accepted
+2024/10/21 19:38:38 tchat: sending:1234
+2024/10/21 19:38:38 we got  tchat:received:9000:oussama
+2024/10/21 19:38:38 and it's accepted
+2024/10/21 19:38:39 tchat: sending:1234
+2024/10/21 19:38:39 we got  tchat:received:9000:oussama
+2024/10/21 19:38:39 and it's accepted
+2024/10/21 19:38:40 tchat: sending:1234
+2024/10/21 19:38:40 we got  tchat:received:9000:oussama
+2024/10/21 19:38:40 and it's accepted
+2024/10/21 19:38:41 tchat: sending:1234
+2024/10/21 19:38:41 we got  tchat:received:9000:oussama
+2024/10/21 19:38:41 and it's accepted
+2024/10/21 19:38:42 tchat: sending:1234
+2024/10/21 19:38:42 we got  tchat:received:9000:oussama
+2024/10/21 19:38:42 and it's accepted
+2024/10/21 19:38:43 tchat: sending:1234
+2024/10/21 19:38:43 we got  tchat:received:9000:oussama
+2024/10/21 19:38:43 and it's accepted
+2024/10/21 19:38:44 tchat: sending:1234
+2024/10/21 19:38:44 we got  tchat:received:9000:oussama
+2024/10/21 19:38:44 and it's accepted
+2024/10/21 19:38:45 tchat: sending:1234
+2024/10/21 19:38:45 we got  tchat:received:9000:oussama
+2024/10/21 19:38:45 and it's accepted
+2024/10/21 19:38:46 tchat: sending:1234
+2024/10/21 19:38:46 we got  tchat:received:9000:oussama
+2024/10/21 19:38:46 and it's accepted
+2024/10/21 19:38:47 tchat: sending:1234
+2024/10/21 19:38:47 we got  tchat:received:9000:oussama
+2024/10/21 19:38:47 and it's accepted
+2024/10/21 19:38:48 tchat: sending:1234
+2024/10/21 19:38:48 we got  tchat:received:9000:oussama
+2024/10/21 19:38:48 and it's accepted
+2024/10/21 19:38:49 tchat: sending:1234
+2024/10/21 19:38:49 we got  tchat:received:9000:oussama
+2024/10/21 19:38:49 and it's accepted
+2024/10/21 19:38:50 tchat: sending:1234
+2024/10/21 19:38:50 we got  tchat:received:9000:oussama
+2024/10/21 19:38:50 and it's accepted
+2024/10/21 19:38:51 tchat: sending:1234
+2024/10/21 19:38:51 we got  tchat:received:9000:oussama
+2024/10/21 19:38:51 and it's accepted
+2024/10/21 19:38:52 tchat: sending:1234
+2024/10/21 19:38:52 we got  tchat:received:9000:oussama
+2024/10/21 19:38:52 and it's accepted
+2024/10/21 19:38:53 tchat: sending:1234
+2024/10/21 19:38:53 we got  tchat:received:9000:oussama
+2024/10/21 19:38:53 and it's accepted
+2024/10/21 19:38:54 tchat: sending:1234
+2024/10/21 19:38:54 we got  tchat:received:9000:oussama
+2024/10/21 19:38:54 and it's accepted
+2024/10/21 19:38:55 tchat: sending:1234
+2024/10/21 19:38:55 we got  tchat:received:9000:oussama
+2024/10/21 19:38:55 and it's accepted
+2024/10/21 19:38:56 tchat: sending:1234
+2024/10/21 19:38:56 we got  tchat:received:9000:oussama
+2024/10/21 19:38:56 and it's accepted
+2024/10/21 19:38:57 tchat: sending:1234
+2024/10/21 19:38:57 we got  tchat:received:9000:oussama
+2024/10/21 19:38:57 and it's accepted
+2024/10/21 19:38:58 tchat: sending:1234
+2024/10/21 19:38:58 we got  tchat:received:9000:oussama
+2024/10/21 19:38:58 and it's accepted
+2024/10/21 19:38:59 tchat: sending:1234
+2024/10/21 19:38:59 we got  tchat:received:9000:oussama
+2024/10/21 19:38:59 and it's accepted
+2024/10/21 19:39:00 tchat: sending:1234
+2024/10/21 19:39:00 we got  tchat:received:9000:oussama
+2024/10/21 19:39:00 and it's accepted
+2024/10/21 19:39:01 tchat: sending:1234
+2024/10/21 19:39:01 we got  tchat:received:9000:oussama
+2024/10/21 19:39:01 and it's accepted
+2024/10/21 19:39:02 tchat: sending:1234
+2024/10/21 19:39:02 we got  tchat:received:9000:oussama
+2024/10/21 19:39:02 and it's accepted
+2024/10/21 19:39:03 tchat: sending:1234
+2024/10/21 19:39:03 we got  tchat:received:9000:oussama
+2024/10/21 19:39:03 and it's accepted
+2024/10/21 19:39:04 tchat: sending:1234
+2024/10/21 19:39:04 we got  tchat:received:9000:oussama
+2024/10/21 19:39:04 and it's accepted
+2024/10/21 19:39:05 tchat: sending:1234
+2024/10/21 19:39:05 we got  tchat:received:9000:oussama
+2024/10/21 19:39:05 and it's accepted
+2024/10/21 19:39:06 Error reading from established connection with EOF
+2024/10/21 19:39:43 starting sending
+2024/10/21 19:39:49 starting receiving
+2024/10/21 19:39:49 tchat: sending:1234
+2024/10/21 19:39:49 we got  tchat:received:9000:oussama
+2024/10/21 19:39:49 and it's accepted
+2024/10/21 19:39:49 Added Member: oussama, address: 192.168.0.130:9000
+2024/10/21 19:39:49 we got  tchat:established:rayane
+2024/10/21 19:39:50 tchat: sending:1234
+2024/10/21 19:39:50 we got  tchat:received:9000:oussama
+2024/10/21 19:39:50 and it's accepted
+2024/10/21 19:39:51 tchat: sending:1234
+2024/10/21 19:39:51 we got  tchat:received:9000:oussama
+2024/10/21 19:39:51 and it's accepted
+2024/10/21 19:39:52 tchat: sending:1234
+2024/10/21 19:39:52 we got  tchat:received:9000:oussama
+2024/10/21 19:39:52 and it's accepted
+2024/10/21 19:39:53 tchat: sending:1234
+2024/10/21 19:39:53 we got  tchat:received:9000:oussama
+2024/10/21 19:39:53 and it's accepted
+2024/10/21 19:39:54 tchat: sending:1234
+2024/10/21 19:39:54 we got  tchat:received:9000:oussama
+2024/10/21 19:39:54 and it's accepted
+2024/10/21 19:39:55 tchat: sending:1234
+2024/10/21 19:39:55 we got  tchat:received:9000:oussama
+2024/10/21 19:39:55 and it's accepted
+2024/10/21 19:39:56 tchat: sending:1234
+2024/10/21 19:39:56 we got  tchat:received:9000:oussama
+2024/10/21 19:39:56 and it's accepted
+2024/10/21 19:39:57 tchat: sending:1234
+2024/10/21 19:39:57 we got  tchat:received:9000:oussama
+2024/10/21 19:39:57 and it's accepted
+2024/10/21 19:39:58 tchat: sending:1234
+2024/10/21 19:39:58 we got  tchat:received:9000:oussama
+2024/10/21 19:39:58 and it's accepted
+2024/10/21 19:39:59 tchat: sending:1234
+2024/10/21 19:39:59 we got  tchat:received:9000:oussama
+2024/10/21 19:39:59 and it's accepted
+2024/10/21 19:40:00 tchat: sending:1234
+2024/10/21 19:40:00 we got  tchat:received:9000:oussama
+2024/10/21 19:40:00 and it's accepted
+2024/10/21 19:40:01 fen a kha oussama 
+2024/10/21 19:40:01 tchat: sending:1234
+2024/10/21 19:40:01 we got  tchat:received:9000:oussama
+2024/10/21 19:40:01 and it's accepted
+2024/10/21 19:40:02 tchat: sending:1234
+2024/10/21 19:40:02 we got  tchat:received:9000:oussama
+2024/10/21 19:40:02 and it's accepted
+2024/10/21 19:40:03 tchat: sending:1234
+2024/10/21 19:40:03 we got  tchat:received:9000:oussama
+2024/10/21 19:40:03 and it's accepted
+2024/10/21 19:40:04 tchat: sending:1234
+2024/10/21 19:40:04 we got  tchat:received:9000:oussama
+2024/10/21 19:40:04 and it's accepted
+2024/10/21 19:40:05 tchat: sending:1234
+2024/10/21 19:40:05 we got  tchat:received:9000:oussama
+2024/10/21 19:40:05 and it's accepted
+2024/10/21 19:40:06 tchat: sending:1234
+2024/10/21 19:40:06 we got  tchat:received:9000:oussama
+2024/10/21 19:40:06 and it's accepted
+2024/10/21 19:40:07 tchat: sending:1234
+2024/10/21 19:40:07 we got  tchat:received:9000:oussama
+2024/10/21 19:40:07 and it's accepted
+2024/10/21 19:40:08 tchat: sending:1234
+2024/10/21 19:40:08 we got  tchat:received:9000:oussama
+2024/10/21 19:40:08 and it's accepted
+2024/10/21 19:40:09 tchat: sending:1234
+2024/10/21 19:40:09 we got  tchat:received:9000:oussama
+2024/10/21 19:40:09 and it's accepted
+2024/10/21 19:40:10 tchat: sending:1234
+2024/10/21 19:40:10 we got  tchat:received:9000:oussama
+2024/10/21 19:40:10 and it's accepted
+2024/10/21 19:40:11 tchat: sending:1234
+2024/10/21 19:40:11 we got  tchat:received:9000:oussama
+2024/10/21 19:40:11 and it's accepted
+2024/10/21 19:40:12 tchat: sending:1234
+2024/10/21 19:40:12 we got  tchat:received:9000:oussama
+2024/10/21 19:40:12 and it's accepted
+2024/10/21 19:40:13 hania a kha rayane
+2024/10/21 19:40:13 tchat: sending:1234
+2024/10/21 19:40:13 we got  tchat:received:9000:oussama
+2024/10/21 19:40:13 and it's accepted
+2024/10/21 19:40:14 tchat: sending:1234
+2024/10/21 19:40:14 we got  tchat:received:9000:oussama
+2024/10/21 19:40:14 and it's accepted
+2024/10/21 19:40:15 tchat: sending:1234
+2024/10/21 19:40:15 we got  tchat:received:9000:oussama
+2024/10/21 19:40:15 and it's accepted
+2024/10/21 19:40:16 tchat: sending:1234
+2024/10/21 19:40:16 we got  tchat:received:9000:oussama
+2024/10/21 19:40:16 and it's accepted
+2024/10/21 19:40:17 tchat: sending:1234
+2024/10/21 19:40:17 we got  tchat:received:9000:oussama
+2024/10/21 19:40:17 and it's accepted
+2024/10/21 19:40:18 tchat: sending:1234
+2024/10/21 19:40:18 we got  tchat:received:9000:oussama
+2024/10/21 19:40:18 and it's accepted
+2024/10/21 19:40:19 tchat: sending:1234
+2024/10/21 19:40:19 we got  tchat:received:9000:oussama
+2024/10/21 19:40:19 and it's accepted
+2024/10/21 19:40:20 tchat: sending:1234
+2024/10/21 19:40:20 we got  tchat:received:9000:oussama
+2024/10/21 19:40:20 and it's accepted
+2024/10/21 19:40:21 tchat: sending:1234
+2024/10/21 19:40:21 we got  tchat:received:9000:oussama
+2024/10/21 19:40:21 and it's accepted
+2024/10/21 19:40:22 tchat: sending:1234
+2024/10/21 19:40:22 we got  tchat:received:9000:oussama
+2024/10/21 19:40:22 and it's accepted
+2024/10/21 19:40:23 tchat: sending:1234
+2024/10/21 19:40:23 we got  tchat:received:9000:oussama
+2024/10/21 19:40:23 and it's accepted
+2024/10/21 19:40:24 tchat: sending:1234
+2024/10/21 19:40:24 we got  tchat:received:9000:oussama
+2024/10/21 19:40:24 and it's accepted
+2024/10/21 19:40:25 tchat: sending:1234
+2024/10/21 19:40:25 we got  tchat:received:9000:oussama
+2024/10/21 19:40:25 and it's accepted
+2024/10/21 19:40:26 tchat: sending:1234
+2024/10/21 19:40:26 we got  tchat:received:9000:oussama
+2024/10/21 19:40:26 and it's accepted
+2024/10/21 19:40:27 tchat: sending:1234
+2024/10/21 19:40:27 we got  tchat:received:9000:oussama
+2024/10/21 19:40:27 and it's accepted
+2024/10/21 19:40:28 tchat: sending:1234
+2024/10/21 19:40:28 we got  tchat:received:9000:oussama
+2024/10/21 19:40:28 and it's accepted
+2024/10/21 19:40:29 tchat: sending:1234
+2024/10/21 19:40:29 we got  tchat:received:9000:oussama
+2024/10/21 19:40:29 and it's accepted
+2024/10/21 19:40:30 tchat: sending:1234
+2024/10/21 19:40:30 we got  tchat:received:9000:oussama
+2024/10/21 19:40:30 and it's accepted
+2024/10/21 19:40:31 tchat: sending:1234
+2024/10/21 19:40:31 we got  tchat:received:9000:oussama
+2024/10/21 19:40:31 and it's accepted
+2024/10/21 19:40:32 tchat: sending:1234
+2024/10/21 19:40:32 we got  tchat:received:9000:oussama
+2024/10/21 19:40:32 and it's accepted
+2024/10/21 19:40:33 tchat: sending:1234
+2024/10/21 19:40:33 we got  tchat:received:9000:oussama
+2024/10/21 19:40:33 and it's accepted
+2024/10/21 19:40:34 tchat: sending:1234
+2024/10/21 19:40:34 we got  tchat:received:9000:oussama
+2024/10/21 19:40:34 and it's accepted
+2024/10/21 19:40:35 tchat: sending:1234
+2024/10/21 19:40:35 we got  tchat:received:9000:oussama
+2024/10/21 19:40:35 and it's accepted
+2024/10/21 19:40:36 tchat: sending:1234
+2024/10/21 19:40:36 we got  tchat:received:9000:oussama
+2024/10/21 19:40:36 and it's accepted
+2024/10/21 19:40:37 tchat: sending:1234
+2024/10/21 19:40:37 we got  tchat:received:9000:oussama
+2024/10/21 19:40:37 and it's accepted
+2024/10/21 19:40:38 tchat: sending:1234
+2024/10/21 19:40:38 we got  tchat:received:9000:oussama
+2024/10/21 19:40:38 and it's accepted
+2024/10/21 19:40:39 tchat: sending:1234
+2024/10/21 19:40:39 we got  tchat:received:9000:oussama
+2024/10/21 19:40:39 and it's accepted
+2024/10/21 19:40:40 tchat: sending:1234
+2024/10/21 19:40:40 we got  tchat:received:9000:oussama
+2024/10/21 19:40:40 and it's accepted
+2024/10/21 19:40:41 tchat: sending:1234
+2024/10/21 19:40:41 we got  tchat:received:9000:oussama
+2024/10/21 19:40:41 and it's accepted
+2024/10/21 19:40:42 tchat: sending:1234
+2024/10/21 19:40:42 we got  tchat:received:9000:oussama
+2024/10/21 19:40:42 and it's accepted
+2024/10/21 19:40:43 tchat: sending:1234
+2024/10/21 19:40:43 we got  tchat:received:9000:oussama
+2024/10/21 19:40:43 and it's accepted
+2024/10/21 19:40:44 tchat: sending:1234
+2024/10/21 19:40:44 we got  tchat:received:9000:oussama
+2024/10/21 19:40:44 and it's accepted
+2024/10/21 19:40:45 tchat: sending:1234
+2024/10/21 19:40:45 we got  tchat:received:9000:oussama
+2024/10/21 19:40:45 and it's accepted
+2024/10/21 19:40:46 tchat: sending:1234
+2024/10/21 19:40:46 we got  tchat:received:9000:oussama
+2024/10/21 19:40:46 and it's accepted
+2024/10/21 19:40:47 tchat: sending:1234
+2024/10/21 19:40:47 we got  tchat:received:9000:oussama
+2024/10/21 19:40:47 and it's accepted
+2024/10/21 19:40:48 tchat: sending:1234
+2024/10/21 19:40:48 we got  tchat:received:9000:oussama
+2024/10/21 19:40:48 and it's accepted
+2024/10/21 19:40:49 tchat: sending:1234
+2024/10/21 19:40:49 we got  tchat:received:9000:oussama
+2024/10/21 19:40:49 and it's accepted
+2024/10/21 19:40:50 tchat: sending:1234
+2024/10/21 19:40:50 we got  tchat:received:9000:oussama
+2024/10/21 19:40:50 and it's accepted
+2024/10/21 19:40:51 tchat: sending:1234
+2024/10/21 19:40:51 we got  tchat:received:9000:oussama
+2024/10/21 19:40:51 and it's accepted
+2024/10/21 19:40:52 tchat: sending:1234
+2024/10/21 19:40:52 we got  tchat:received:9000:oussama
+2024/10/21 19:40:52 and it's accepted
+2024/10/21 19:40:53 tchat: sending:1234
+2024/10/21 19:40:53 we got  tchat:received:9000:oussama
+2024/10/21 19:40:53 and it's accepted
+2024/10/21 19:40:54 tchat: sending:1234
+2024/10/21 19:40:54 we got  tchat:received:9000:oussama
+2024/10/21 19:40:54 and it's accepted
+2024/10/21 19:40:55 tchat: sending:1234
+2024/10/21 19:40:55 we got  tchat:received:9000:oussama
+2024/10/21 19:40:55 and it's accepted
+2024/10/21 19:40:56 tchat: sending:1234
+2024/10/21 19:40:56 we got  tchat:received:9000:oussama
+2024/10/21 19:40:56 and it's accepted
+2024/10/21 19:40:57 tchat: sending:1234
+2024/10/21 19:40:57 we got  tchat:received:9000:oussama
+2024/10/21 19:40:57 and it's accepted
+2024/10/21 19:40:58 tchat: sending:1234
+2024/10/21 19:40:58 we got  tchat:received:9000:oussama
+2024/10/21 19:40:58 and it's accepted
+2024/10/21 19:40:59 tchat: sending:1234
+2024/10/21 19:40:59 we got  tchat:received:9000:oussama
+2024/10/21 19:40:59 and it's accepted
+2024/10/21 19:41:00 tchat: sending:1234
+2024/10/21 19:41:00 we got  tchat:received:9000:oussama
+2024/10/21 19:41:00 and it's accepted
+2024/10/21 19:41:01 tchat: sending:1234
+2024/10/21 19:41:01 we got  tchat:received:9000:oussama
+2024/10/21 19:41:01 and it's accepted
+2024/10/21 19:41:02 tchat: sending:1234
+2024/10/21 19:41:02 we got  tchat:received:9000:oussama
+2024/10/21 19:41:02 and it's accepted
+2024/10/21 19:41:03 tchat: sending:1234
+2024/10/21 19:41:03 we got  tchat:received:9000:oussama
+2024/10/21 19:41:03 and it's accepted
+2024/10/21 19:41:04 tchat: sending:1234
+2024/10/21 19:41:04 we got  tchat:received:9000:oussama
+2024/10/21 19:41:04 and it's accepted
+2024/10/21 19:41:05 tchat: sending:1234
+2024/10/21 19:41:05 we got  tchat:received:9000:oussama
+2024/10/21 19:41:05 and it's accepted
+2024/10/21 19:41:06 tchat: sending:1234
+2024/10/21 19:41:06 we got  tchat:received:9000:oussama
+2024/10/21 19:41:06 and it's accepted
+2024/10/21 19:41:07 tchat: sending:1234
+2024/10/21 19:41:07 we got  tchat:received:9000:oussama
+2024/10/21 19:41:07 and it's accepted
+2024/10/21 19:41:08 tchat: sending:1234
+2024/10/21 19:41:08 we got  tchat:received:9000:oussama
+2024/10/21 19:41:08 and it's accepted
+2024/10/21 19:41:09 tchat: sending:1234
+2024/10/21 19:41:09 we got  tchat:received:9000:oussama
+2024/10/21 19:41:09 and it's accepted
+2024/10/21 19:41:10 tchat: sending:1234
+2024/10/21 19:41:10 we got  tchat:received:9000:oussama
+2024/10/21 19:41:10 and it's accepted
+2024/10/21 19:41:11 tchat: sending:1234
+2024/10/21 19:41:11 we got  tchat:received:9000:oussama
+2024/10/21 19:41:11 and it's accepted
+2024/10/21 19:41:12 tchat: sending:1234
+2024/10/21 19:41:12 we got  tchat:received:9000:oussama
+2024/10/21 19:41:12 and it's accepted
+2024/10/21 19:41:13 tchat: sending:1234
+2024/10/21 19:41:13 we got  tchat:received:9000:oussama
+2024/10/21 19:41:13 and it's accepted
+2024/10/21 19:41:14 tchat: sending:1234
+2024/10/21 19:41:14 we got  tchat:received:9000:oussama
+2024/10/21 19:41:14 and it's accepted
+2024/10/21 19:41:15 tchat: sending:1234
+2024/10/21 19:41:15 we got  tchat:received:9000:oussama
+2024/10/21 19:41:15 and it's accepted
+2024/10/21 19:41:16 tchat: sending:1234
+2024/10/21 19:41:16 we got  tchat:received:9000:oussama
+2024/10/21 19:41:16 and it's accepted
+2024/10/21 19:41:17 lahfdek a bro 
+2024/10/21 19:41:17 tchat: sending:1234
+2024/10/21 19:41:17 we got  tchat:received:9000:oussama
+2024/10/21 19:41:17 and it's accepted
+2024/10/21 19:41:18 tchat: sending:1234
+2024/10/21 19:41:18 we got  tchat:received:9000:oussama
+2024/10/21 19:41:18 and it's accepted
+2024/10/21 19:41:19 tchat: sending:1234
+2024/10/21 19:41:19 we got  tchat:received:9000:oussama
+2024/10/21 19:41:19 and it's accepted
+2024/10/21 19:41:20 tchat: sending:1234
+2024/10/21 19:41:20 we got  tchat:received:9000:oussama
+2024/10/21 19:41:20 and it's accepted
+2024/10/21 19:41:21 tchat: sending:1234
+2024/10/21 19:41:21 we got  tchat:received:9000:oussama
+2024/10/21 19:41:21 and it's accepted
+2024/10/21 19:41:22 tchat: sending:1234
+2024/10/21 19:41:22 we got  tchat:received:9000:oussama
+2024/10/21 19:41:22 and it's accepted
+2024/10/21 19:41:23 tchat: sending:1234
+2024/10/21 19:41:23 we got  tchat:received:9000:oussama
+2024/10/21 19:41:23 and it's accepted
+2024/10/21 19:41:24 tchat: sending:1234
+2024/10/21 19:41:24 we got  tchat:received:9000:oussama
+2024/10/21 19:41:24 and it's accepted
+2024/10/21 19:41:25 tchat: sending:1234
+2024/10/21 19:41:25 we got  tchat:received:9000:oussama
+2024/10/21 19:41:25 and it's accepted
+2024/10/21 19:41:26 tchat: sending:1234
+2024/10/21 19:41:26 we got  tchat:received:9000:oussama
+2024/10/21 19:41:26 and it's accepted
+2024/10/21 19:41:27 tchat: sending:1234
+2024/10/21 19:41:27 we got  tchat:received:9000:oussama
+2024/10/21 19:41:27 and it's accepted
+2024/10/21 19:41:28 tchat: sending:1234
+2024/10/21 19:41:28 we got  tchat:received:9000:oussama
+2024/10/21 19:41:28 and it's accepted
+2024/10/21 19:41:29 tchat: sending:1234
+2024/10/21 19:41:29 we got  tchat:received:9000:oussama
+2024/10/21 19:41:29 and it's accepted
+2024/10/21 19:41:30 tchat: sending:1234
+2024/10/21 19:41:30 we got  tchat:received:9000:oussama
+2024/10/21 19:41:30 and it's accepted
+2024/10/21 19:41:31 tchat: sending:1234
+2024/10/21 19:41:31 we got  tchat:received:9000:oussama
+2024/10/21 19:41:31 and it's accepted
+2024/10/21 19:41:32 tchat: sending:1234
+2024/10/21 19:41:32 we got  tchat:received:9000:oussama
+2024/10/21 19:41:32 and it's accepted
+2024/10/21 19:41:33 tchat: sending:1234
+2024/10/21 19:41:33 we got  tchat:received:9000:oussama
+2024/10/21 19:41:33 and it's accepted
+2024/10/21 19:41:34 tchat: sending:1234
+2024/10/21 19:41:34 we got  tchat:received:9000:oussama
+2024/10/21 19:41:34 and it's accepted
+2024/10/21 19:41:35 tchat: sending:1234
+2024/10/21 19:41:35 we got  tchat:received:9000:oussama
+2024/10/21 19:41:35 and it's accepted
+2024/10/21 19:41:36 tchat: sending:1234
+2024/10/21 19:41:36 we got  tchat:received:9000:oussama
+2024/10/21 19:41:36 and it's accepted
+2024/10/21 19:41:37 tchat: sending:1234
+2024/10/21 19:41:37 we got  tchat:received:9000:oussama
+2024/10/21 19:41:37 and it's accepted
+2024/10/21 19:41:38 tchat: sending:1234
+2024/10/21 19:41:38 we got  tchat:received:9000:oussama
+2024/10/21 19:41:38 and it's accepted
+2024/10/21 19:41:39 tchat: sending:1234
+2024/10/21 19:41:39 we got  tchat:received:9000:oussama
+2024/10/21 19:41:39 and it's accepted
+2024/10/21 19:41:40 tchat: sending:1234
+2024/10/21 19:41:40 we got  tchat:received:9000:oussama
+2024/10/21 19:41:40 and it's accepted
+2024/10/21 19:41:41 tchat: sending:1234
+2024/10/21 19:41:41 we got  tchat:received:9000:oussama
+2024/10/21 19:41:41 and it's accepted
+2024/10/21 19:41:42 tchat: sending:1234
+2024/10/21 19:41:42 we got  tchat:received:9000:oussama
+2024/10/21 19:41:42 and it's accepted
+2024/10/21 19:41:43 tchat: sending:1234
+2024/10/21 19:41:43 we got  tchat:received:9000:oussama
+2024/10/21 19:41:43 and it's accepted
+2024/10/21 19:41:44 tchat: sending:1234
+2024/10/21 19:41:44 we got  tchat:received:9000:oussama
+2024/10/21 19:41:44 and it's accepted
+2024/10/21 19:41:45 tchat: sending:1234
+2024/10/21 19:41:45 we got  tchat:received:9000:oussama
+2024/10/21 19:41:45 and it's accepted
+2024/10/21 19:41:46 tchat: sending:1234
+2024/10/21 19:41:46 we got  tchat:received:9000:oussama
+2024/10/21 19:41:46 and it's accepted
+2024/10/21 19:41:47 tchat: sending:1234
+2024/10/21 19:41:47 we got  tchat:received:9000:oussama
+2024/10/21 19:41:47 and it's accepted
+2024/10/21 19:41:48 tchat: sending:1234
+2024/10/21 19:41:48 we got  tchat:received:9000:oussama
+2024/10/21 19:41:48 and it's accepted
+2024/10/21 19:41:49 tchat: sending:1234
+2024/10/21 19:41:49 we got  tchat:received:9000:oussama
+2024/10/21 19:41:49 and it's accepted
+2024/10/21 19:41:50 tchat: sending:1234
+2024/10/21 19:41:50 we got  tchat:received:9000:oussama
+2024/10/21 19:41:50 and it's accepted
+2024/10/21 19:41:51 tchat: sending:1234
+2024/10/21 19:41:51 we got  tchat:received:9000:oussama
+2024/10/21 19:41:51 and it's accepted
+2024/10/21 19:41:52 tchat: sending:1234
+2024/10/21 19:41:52 we got  tchat:received:9000:oussama
+2024/10/21 19:41:52 and it's accepted
+2024/10/21 19:41:53 tchat: sending:1234
+2024/10/21 19:41:53 we got  tchat:received:9000:oussama
+2024/10/21 19:41:53 and it's accepted
+2024/10/21 19:41:54 tchat: sending:1234
+2024/10/21 19:41:54 we got  tchat:received:9000:oussama
+2024/10/21 19:41:54 and it's accepted
+2024/10/21 19:41:55 tchat: sending:1234
+2024/10/21 19:41:55 we got  tchat:received:9000:oussama
+2024/10/21 19:41:55 and it's accepted
+2024/10/21 19:41:56 tchat: sending:1234
+2024/10/21 19:41:56 we got  tchat:received:9000:oussama
+2024/10/21 19:41:56 and it's accepted
+2024/10/21 19:41:57 tchat: sending:1234
+2024/10/21 19:41:57 we got  tchat:received:9000:oussama
+2024/10/21 19:41:57 and it's accepted
+2024/10/21 19:41:58 tchat: sending:1234
+2024/10/21 19:41:58 we got  tchat:received:9000:oussama
+2024/10/21 19:41:58 and it's accepted
+2024/10/21 19:41:59 tchat: sending:1234
+2024/10/21 19:41:59 we got  tchat:received:9000:oussama
+2024/10/21 19:41:59 and it's accepted
+2024/10/21 19:42:00 tchat: sending:1234
+2024/10/21 19:42:00 we got  tchat:received:9000:oussama
+2024/10/21 19:42:00 and it's accepted
+2024/10/21 19:42:01 tchat: sending:1234
+2024/10/21 19:42:01 we got  tchat:received:9000:oussama
+2024/10/21 19:42:01 and it's accepted
+2024/10/21 19:42:02 tchat: sending:1234
+2024/10/21 19:42:02 we got  tchat:received:9000:oussama
+2024/10/21 19:42:02 and it's accepted
+2024/10/21 19:42:03 tchat: sending:1234
+2024/10/21 19:42:03 we got  tchat:received:9000:oussama
+2024/10/21 19:42:03 and it's accepted
+2024/10/21 19:42:04 tchat: sending:1234
+2024/10/21 19:42:04 we got  tchat:received:9000:oussama
+2024/10/21 19:42:04 and it's accepted
+2024/10/21 19:42:05 tchat: sending:1234
+2024/10/21 19:42:05 we got  tchat:received:9000:oussama
+2024/10/21 19:42:05 and it's accepted
+2024/10/21 19:42:06 tchat: sending:1234
+2024/10/21 19:42:06 we got  tchat:received:9000:oussama
+2024/10/21 19:42:06 and it's accepted
+2024/10/21 19:42:07 tchat: sending:1234
+2024/10/21 19:42:07 we got  tchat:received:9000:oussama
+2024/10/21 19:42:07 and it's accepted
+2024/10/21 19:42:08 tchat: sending:1234
+2024/10/21 19:42:08 we got  tchat:received:9000:oussama
+2024/10/21 19:42:08 and it's accepted
+2024/10/21 19:42:09 tchat: sending:1234
+2024/10/21 19:42:09 we got  tchat:received:9000:oussama
+2024/10/21 19:42:09 and it's accepted
+2024/10/21 19:42:10 tchat: sending:1234
+2024/10/21 19:42:10 we got  tchat:received:9000:oussama
+2024/10/21 19:42:11 and it's accepted
+2024/10/21 19:42:12 tchat: sending:1234
+2024/10/21 19:42:12 we got  tchat:received:9000:oussama
+2024/10/21 19:42:12 and it's accepted
+2024/10/21 19:42:13 tchat: sending:1234
+2024/10/21 19:42:13 we got  tchat:received:9000:oussama
+2024/10/21 19:42:13 and it's accepted
+2024/10/21 19:42:14 tchat: sending:1234
+2024/10/21 19:42:14 we got  tchat:received:9000:oussama
+2024/10/21 19:42:14 and it's accepted
+2024/10/21 19:42:15 tchat: sending:1234
+2024/10/21 19:42:15 we got  tchat:received:9000:oussama
+2024/10/21 19:42:15 and it's accepted
+2024/10/21 19:42:16 tchat: sending:1234
+2024/10/21 19:42:16 we got  tchat:received:9000:oussama
+2024/10/21 19:42:16 and it's accepted
+2024/10/21 19:42:17 tchat: sending:1234
+2024/10/21 19:42:17 we got  tchat:received:9000:oussama
+2024/10/21 19:42:17 and it's accepted
+2024/10/21 19:42:18 tchat: sending:1234
+2024/10/21 19:42:18 we got  tchat:received:9000:oussama
+2024/10/21 19:42:18 and it's accepted
+2024/10/21 19:42:19 tchat: sending:1234
+2024/10/21 19:42:19 we got  tchat:received:9000:oussama
+2024/10/21 19:42:19 and it's accepted
+2024/10/21 19:42:20 tchat: sending:1234
+2024/10/21 19:42:20 we got  tchat:received:9000:oussama
+2024/10/21 19:42:20 and it's accepted
+2024/10/21 19:42:21 tchat: sending:1234
+2024/10/21 19:42:21 we got  tchat:received:9000:oussama
+2024/10/21 19:42:21 and it's accepted
+2024/10/21 19:42:22 tchat: sending:1234
+2024/10/21 19:42:22 we got  tchat:received:9000:oussama
+2024/10/21 19:42:22 and it's accepted
+2024/10/21 19:42:23 tchat: sending:1234
+2024/10/21 19:42:23 we got  tchat:received:9000:oussama
+2024/10/21 19:42:23 and it's accepted
+2024/10/21 19:42:24 tchat: sending:1234
+2024/10/21 19:42:24 we got  tchat:received:9000:oussama
+2024/10/21 19:42:24 and it's accepted
+2024/10/21 19:42:25 tchat: sending:1234
+2024/10/21 19:42:25 we got  tchat:received:9000:oussama
+2024/10/21 19:42:25 and it's accepted
+2024/10/21 19:42:26 tchat: sending:1234
+2024/10/21 19:42:26 we got  tchat:received:9000:oussama
+2024/10/21 19:42:26 and it's accepted
+2024/10/21 19:42:27 tchat: sending:1234
+2024/10/21 19:42:27 we got  tchat:received:9000:oussama
+2024/10/21 19:42:27 and it's accepted
+2024/10/21 19:42:28 tchat: sending:1234
+2024/10/21 19:42:28 we got  tchat:received:9000:oussama
+2024/10/21 19:42:28 and it's accepted
+2024/10/21 19:42:29 tchat: sending:1234
+2024/10/21 19:42:29 we got  tchat:received:9000:oussama
+2024/10/21 19:42:29 and it's accepted
+2024/10/21 19:42:30 tchat: sending:1234
+2024/10/21 19:42:30 we got  tchat:received:9000:oussama
+2024/10/21 19:42:30 and it's accepted
+2024/10/21 19:42:31 tchat: sending:1234
+2024/10/21 19:42:31 we got  tchat:received:9000:oussama
+2024/10/21 19:42:31 and it's accepted
+2024/10/21 19:42:32 tchat: sending:1234
+2024/10/21 19:42:32 we got  tchat:received:9000:oussama
+2024/10/21 19:42:32 and it's accepted
+2024/10/21 19:42:33 tchat: sending:1234
+2024/10/21 19:42:33 we got  tchat:received:9000:oussama
+2024/10/21 19:42:33 and it's accepted
+2024/10/21 19:42:34 tchat: sending:1234
+2024/10/21 19:42:34 we got  tchat:received:9000:oussama
+2024/10/21 19:42:34 and it's accepted
+2024/10/21 19:42:35 tchat: sending:1234
+2024/10/21 19:42:35 we got  tchat:received:9000:oussama
+2024/10/21 19:42:35 and it's accepted
+2024/10/21 19:42:36 tchat: sending:1234
+2024/10/21 19:42:36 we got  tchat:received:9000:oussama
+2024/10/21 19:42:36 and it's accepted
+2024/10/21 19:42:37 tchat: sending:1234
+2024/10/21 19:42:37 we got  tchat:received:9000:oussama
+2024/10/21 19:42:37 and it's accepted
+2024/10/21 19:42:38 tchat: sending:1234
+2024/10/21 19:42:38 we got  tchat:received:9000:oussama
+2024/10/21 19:42:38 and it's accepted
+2024/10/21 19:42:39 tchat: sending:1234
+2024/10/21 19:42:39 we got  tchat:received:9000:oussama
+2024/10/21 19:42:39 and it's accepted
+2024/10/21 19:42:40 tchat: sending:1234
+2024/10/21 19:42:40 we got  tchat:received:9000:oussama
+2024/10/21 19:42:40 and it's accepted
+2024/10/21 19:42:41 tchat: sending:1234
+2024/10/21 19:42:41 we got  tchat:received:9000:oussama
+2024/10/21 19:42:41 and it's accepted
+2024/10/21 19:42:42 tchat: sending:1234
+2024/10/21 19:42:42 we got  tchat:received:9000:oussama
+2024/10/21 19:42:42 and it's accepted
+2024/10/21 19:42:43 tchat: sending:1234
+2024/10/21 19:42:43 we got  tchat:received:9000:oussama
+2024/10/21 19:42:43 and it's accepted
+2024/10/21 19:42:44 tchat: sending:1234
+2024/10/21 19:42:44 we got  tchat:received:9000:oussama
+2024/10/21 19:42:44 and it's accepted
+2024/10/21 19:42:45 tchat: sending:1234
+2024/10/21 19:42:45 we got  tchat:received:9000:oussama
+2024/10/21 19:42:45 and it's accepted
+2024/10/21 19:42:46 tchat: sending:1234
+2024/10/21 19:42:46 we got  tchat:received:9000:oussama
+2024/10/21 19:42:46 and it's accepted
+2024/10/21 19:42:47 tchat: sending:1234
+2024/10/21 19:42:47 we got  tchat:received:9000:oussama
+2024/10/21 19:42:47 and it's accepted
+2024/10/21 19:42:48 tchat: sending:1234
+2024/10/21 19:42:48 we got  tchat:received:9000:oussama
+2024/10/21 19:42:48 and it's accepted
+2024/10/21 19:42:49 tchat: sending:1234
+2024/10/21 19:42:49 we got  tchat:received:9000:oussama
+2024/10/21 19:42:49 and it's accepted
+2024/10/21 19:42:50 tchat: sending:1234
+2024/10/21 19:42:50 we got  tchat:received:9000:oussama
+2024/10/21 19:42:50 and it's accepted
+2024/10/21 19:42:51 tchat: sending:1234
+2024/10/21 19:42:51 we got  tchat:received:9000:oussama
+2024/10/21 19:42:51 and it's accepted
+2024/10/21 19:42:52 tchat: sending:1234
+2024/10/21 19:42:52 we got  tchat:received:9000:oussama
+2024/10/21 19:42:52 and it's accepted
+2024/10/21 19:42:53 tchat: sending:1234
+2024/10/21 19:42:53 we got  tchat:received:9000:oussama
+2024/10/21 19:42:53 and it's accepted
+2024/10/21 19:42:54 tchat: sending:1234
+2024/10/21 19:42:54 we got  tchat:received:9000:oussama
+2024/10/21 19:42:54 and it's accepted
+2024/10/21 19:42:55 tchat: sending:1234
+2024/10/21 19:42:55 we got  tchat:received:9000:oussama
+2024/10/21 19:42:55 and it's accepted
+2024/10/21 19:42:56 tchat: sending:1234
+2024/10/21 19:42:56 we got  tchat:received:9000:oussama
+2024/10/21 19:42:56 and it's accepted
+2024/10/21 19:42:57 tchat: sending:1234
+2024/10/21 19:42:57 we got  tchat:received:9000:oussama
+2024/10/21 19:42:57 and it's accepted
+2024/10/21 19:42:58 tchat: sending:1234
+2024/10/21 19:42:58 we got  tchat:received:9000:oussama
+2024/10/21 19:42:58 and it's accepted
+2024/10/21 19:42:59 tchat: sending:1234
+2024/10/21 19:42:59 we got  tchat:received:9000:oussama
+2024/10/21 19:42:59 and it's accepted
+2024/10/21 19:43:00 tchat: sending:1234
+2024/10/21 19:43:00 we got  tchat:received:9000:oussama
+2024/10/21 19:43:00 and it's accepted
+2024/10/21 19:43:01 tchat: sending:1234
+2024/10/21 19:43:01 we got  tchat:received:9000:oussama
+2024/10/21 19:43:01 and it's accepted
+2024/10/21 19:43:02 tchat: sending:1234
+2024/10/21 19:43:02 we got  tchat:received:9000:oussama
+2024/10/21 19:43:02 and it's accepted
+2024/10/21 19:43:03 tchat: sending:1234
+2024/10/21 19:43:03 we got  tchat:received:9000:oussama
+2024/10/21 19:43:03 and it's accepted
+2024/10/21 19:43:04 tchat: sending:1234
+2024/10/21 19:43:04 we got  tchat:received:9000:oussama
+2024/10/21 19:43:04 and it's accepted
+2024/10/21 19:43:05 tchat: sending:1234
+2024/10/21 19:43:05 we got  tchat:received:9000:oussama
+2024/10/21 19:43:05 and it's accepted
+2024/10/21 19:43:06 tchat: sending:1234
+2024/10/21 19:43:06 we got  tchat:received:9000:oussama
+2024/10/21 19:43:06 and it's accepted
+2024/10/21 19:43:07 tchat: sending:1234
+2024/10/21 19:43:07 we got  tchat:received:9000:oussama
+2024/10/21 19:43:07 and it's accepted
+2024/10/21 19:43:08 tchat: sending:1234
+2024/10/21 19:43:08 we got  tchat:received:9000:oussama
+2024/10/21 19:43:08 and it's accepted
+2024/10/21 19:43:09 tchat: sending:1234
+2024/10/21 19:43:09 we got  tchat:received:9000:oussama
+2024/10/21 19:43:09 and it's accepted
+2024/10/21 19:43:10 tchat: sending:1234
+2024/10/21 19:43:10 we got  tchat:received:9000:oussama
+2024/10/21 19:43:10 and it's accepted
+2024/10/21 19:43:11 tchat: sending:1234
+2024/10/21 19:43:11 we got  tchat:received:9000:oussama
+2024/10/21 19:43:11 and it's accepted
+2024/10/21 19:43:12 tchat: sending:1234
+2024/10/21 19:43:12 we got  tchat:received:9000:oussama
+2024/10/21 19:43:12 and it's accepted
+2024/10/21 19:43:13 tchat: sending:1234
+2024/10/21 19:43:13 we got  tchat:received:9000:oussama
+2024/10/21 19:43:13 and it's accepted
+2024/10/21 19:43:14 tchat: sending:1234
+2024/10/21 19:43:14 we got  tchat:received:9000:oussama
+2024/10/21 19:43:14 and it's accepted
+2024/10/21 19:43:15 tchat: sending:1234
+2024/10/21 19:43:15 we got  tchat:received:9000:oussama
+2024/10/21 19:43:15 and it's accepted
+2024/10/21 19:43:16 tchat: sending:1234
+2024/10/21 19:43:16 we got  tchat:received:9000:oussama
+2024/10/21 19:43:16 and it's accepted
+2024/10/21 19:43:17 tchat: sending:1234
+2024/10/21 19:43:17 we got  tchat:received:9000:oussama
+2024/10/21 19:43:17 and it's accepted
+2024/10/21 19:43:18 tchat: sending:1234
+2024/10/21 19:43:18 we got  tchat:received:9000:oussama
+2024/10/21 19:43:18 and it's accepted
+2024/10/21 19:43:19 tchat: sending:1234
+2024/10/21 19:43:19 we got  tchat:received:9000:oussama
+2024/10/21 19:43:19 and it's accepted
+2024/10/21 19:43:20 tchat: sending:1234
+2024/10/21 19:43:20 we got  tchat:received:9000:oussama
+2024/10/21 19:43:20 and it's accepted
+2024/10/21 19:43:21 tchat: sending:1234
+2024/10/21 19:43:21 we got  tchat:received:9000:oussama
+2024/10/21 19:43:21 and it's accepted
+2024/10/21 19:43:22 tchat: sending:1234
+2024/10/21 19:43:22 we got  tchat:received:9000:oussama
+2024/10/21 19:43:22 and it's accepted
+2024/10/21 19:43:23 tchat: sending:1234
+2024/10/21 19:43:23 we got  tchat:received:9000:oussama
+2024/10/21 19:43:23 and it's accepted
+2024/10/21 19:43:24 tchat: sending:1234
+2024/10/21 19:43:24 we got  tchat:received:9000:oussama
+2024/10/21 19:43:24 and it's accepted
+2024/10/21 19:43:25 tchat: sending:1234
+2024/10/21 19:43:25 we got  tchat:received:9000:oussama
+2024/10/21 19:43:25 and it's accepted
+2024/10/21 19:43:26 tchat: sending:1234
+2024/10/21 19:43:26 we got  tchat:received:9000:oussama
+2024/10/21 19:43:26 and it's accepted
+2024/10/21 19:43:27 tchat: sending:1234
+2024/10/21 19:43:27 we got  tchat:received:9000:oussama
+2024/10/21 19:43:27 and it's accepted
+2024/10/21 19:43:28 tchat: sending:1234
+2024/10/21 19:43:28 we got  tchat:received:9000:oussama
+2024/10/21 19:43:28 and it's accepted
+2024/10/21 19:43:29 tchat: sending:1234
+2024/10/21 19:43:29 we got  tchat:received:9000:oussama
+2024/10/21 19:43:29 and it's accepted
+2024/10/21 19:43:30 tchat: sending:1234
+2024/10/21 19:43:30 we got  tchat:received:9000:oussama
+2024/10/21 19:43:30 and it's accepted
+2024/10/21 19:43:31 tchat: sending:1234
+2024/10/21 19:43:31 we got  tchat:received:9000:oussama
+2024/10/21 19:43:31 and it's accepted
+2024/10/21 19:43:32 tchat: sending:1234
+2024/10/21 19:43:32 we got  tchat:received:9000:oussama
+2024/10/21 19:43:32 and it's accepted
+2024/10/21 19:43:33 tchat: sending:1234
+2024/10/21 19:43:33 we got  tchat:received:9000:oussama
+2024/10/21 19:43:33 and it's accepted
+2024/10/21 19:43:34 tchat: sending:1234
+2024/10/21 19:43:34 we got  tchat:received:9000:oussama
+2024/10/21 19:43:34 and it's accepted
+2024/10/21 19:43:35 tchat: sending:1234
+2024/10/21 19:43:35 we got  tchat:received:9000:oussama
+2024/10/21 19:43:35 and it's accepted
+2024/10/21 19:43:36 tchat: sending:1234
+2024/10/21 19:43:36 we got  tchat:received:9000:oussama
+2024/10/21 19:43:36 and it's accepted
+2024/10/21 19:43:37 tchat: sending:1234
+2024/10/21 19:43:37 we got  tchat:received:9000:oussama
+2024/10/21 19:43:37 and it's accepted
+2024/10/21 19:43:38 tchat: sending:1234
+2024/10/21 19:43:38 we got  tchat:received:9000:oussama
+2024/10/21 19:43:38 and it's accepted
+2024/10/21 19:43:39 tchat: sending:1234
+2024/10/21 19:43:39 we got  tchat:received:9000:oussama
+2024/10/21 19:43:39 and it's accepted
+2024/10/21 19:43:40 tchat: sending:1234
+2024/10/21 19:43:40 we got  tchat:received:9000:oussama
+2024/10/21 19:43:40 and it's accepted
+2024/10/21 19:43:41 tchat: sending:1234
+2024/10/21 19:43:41 we got  tchat:received:9000:oussama
+2024/10/21 19:43:41 and it's accepted
+2024/10/21 19:43:42 tchat: sending:1234
+2024/10/21 19:43:42 we got  tchat:received:9000:oussama
+2024/10/21 19:43:42 and it's accepted
+2024/10/21 19:43:43 tchat: sending:1234
+2024/10/21 19:43:43 we got  tchat:received:9000:oussama
+2024/10/21 19:43:43 and it's accepted
+2024/10/21 19:43:44 tchat: sending:1234
+2024/10/21 19:43:44 we got  tchat:received:9000:oussama
+2024/10/21 19:43:44 and it's accepted
+2024/10/21 19:43:45 tchat: sending:1234
+2024/10/21 19:43:45 we got  tchat:received:9000:oussama
+2024/10/21 19:43:45 and it's accepted
+2024/10/21 19:43:46 tchat: sending:1234
+2024/10/21 19:43:46 we got  tchat:received:9000:oussama
+2024/10/21 19:43:46 and it's accepted
+2024/10/21 19:43:47 tchat: sending:1234
+2024/10/21 19:43:47 we got  tchat:received:9000:oussama
+2024/10/21 19:43:47 and it's accepted
+2024/10/21 19:43:48 tchat: sending:1234
+2024/10/21 19:43:48 we got  tchat:received:9000:oussama
+2024/10/21 19:43:48 and it's accepted
+2024/10/21 19:43:49 tchat: sending:1234
+2024/10/21 19:43:49 we got  tchat:received:9000:oussama
+2024/10/21 19:43:49 and it's accepted
+2024/10/21 19:43:50 tchat: sending:1234
+2024/10/21 19:43:50 we got  tchat:received:9000:oussama
+2024/10/21 19:43:50 and it's accepted
+2024/10/21 19:43:51 tchat: sending:1234
+2024/10/21 19:43:51 we got  tchat:received:9000:oussama
+2024/10/21 19:43:51 and it's accepted
+2024/10/21 19:43:52 tchat: sending:1234
+2024/10/21 19:43:52 we got  tchat:received:9000:oussama
+2024/10/21 19:43:52 and it's accepted
+2024/10/21 19:43:53 tchat: sending:1234
+2024/10/21 19:43:53 we got  tchat:received:9000:oussama
+2024/10/21 19:43:53 and it's accepted
+2024/10/21 19:43:54 tchat: sending:1234
+2024/10/21 19:43:54 we got  tchat:received:9000:oussama
+2024/10/21 19:43:54 and it's accepted
+2024/10/21 19:43:55 tchat: sending:1234
+2024/10/21 19:43:55 we got  tchat:received:9000:oussama
+2024/10/21 19:43:55 and it's accepted
+2024/10/21 19:43:56 tchat: sending:1234
+2024/10/21 19:43:56 we got  tchat:received:9000:oussama
+2024/10/21 19:43:56 and it's accepted
+2024/10/21 19:43:57 tchat: sending:1234
+2024/10/21 19:43:57 we got  tchat:received:9000:oussama
+2024/10/21 19:43:57 and it's accepted
+2024/10/21 19:43:58 tchat: sending:1234
+2024/10/21 19:43:58 we got  tchat:received:9000:oussama
+2024/10/21 19:43:58 and it's accepted
+2024/10/21 19:43:59 tchat: sending:1234
+2024/10/21 19:43:59 we got  tchat:received:9000:oussama
+2024/10/21 19:43:59 and it's accepted
+2024/10/21 19:44:00 tchat: sending:1234
+2024/10/21 19:44:00 we got  tchat:received:9000:oussama
+2024/10/21 19:44:00 and it's accepted
+2024/10/21 19:44:01 tchat: sending:1234
+2024/10/21 19:44:01 we got  tchat:received:9000:oussama
+2024/10/21 19:44:01 and it's accepted
+2024/10/21 19:44:02 tchat: sending:1234
+2024/10/21 19:44:02 we got  tchat:received:9000:oussama
+2024/10/21 19:44:02 and it's accepted
+2024/10/21 19:44:03 tchat: sending:1234
+2024/10/21 19:44:03 we got  tchat:received:9000:oussama
+2024/10/21 19:44:03 and it's accepted
+2024/10/21 19:44:04 tchat: sending:1234
+2024/10/21 19:44:04 we got  tchat:received:9000:oussama
+2024/10/21 19:44:04 and it's accepted
+2024/10/21 19:44:05 tchat: sending:1234
+2024/10/21 19:44:05 we got  tchat:received:9000:oussama
+2024/10/21 19:44:05 and it's accepted
+2024/10/21 19:44:06 tchat: sending:1234
+2024/10/21 19:44:06 we got  tchat:received:9000:oussama
+2024/10/21 19:44:06 and it's accepted
+2024/10/21 19:44:07 tchat: sending:1234
+2024/10/21 19:44:07 we got  tchat:received:9000:oussama
+2024/10/21 19:44:07 and it's accepted
+2024/10/21 19:44:08 tchat: sending:1234
+2024/10/21 19:44:08 we got  tchat:received:9000:oussama
+2024/10/21 19:44:08 and it's accepted
+2024/10/21 19:44:09 tchat: sending:1234
+2024/10/21 19:44:09 we got  tchat:received:9000:oussama
+2024/10/21 19:44:09 and it's accepted
+2024/10/21 19:44:10 tchat: sending:1234
+2024/10/21 19:44:10 we got  tchat:received:9000:oussama
+2024/10/21 19:44:10 and it's accepted
+2024/10/21 19:44:11 tchat: sending:1234
+2024/10/21 19:44:11 we got  tchat:received:9000:oussama
+2024/10/21 19:44:11 and it's accepted
+2024/10/21 19:44:12 tchat: sending:1234
+2024/10/21 19:44:12 we got  tchat:received:9000:oussama
+2024/10/21 19:44:12 and it's accepted
+2024/10/21 19:44:13 tchat: sending:1234
+2024/10/21 19:44:13 we got  tchat:received:9000:oussama
+2024/10/21 19:44:13 and it's accepted
+2024/10/21 19:44:14 tchat: sending:1234
+2024/10/21 19:44:14 we got  tchat:received:9000:oussama
+2024/10/21 19:44:14 and it's accepted
+2024/10/21 19:44:15 tchat: sending:1234
+2024/10/21 19:44:15 we got  tchat:received:9000:oussama
+2024/10/21 19:44:15 and it's accepted
+2024/10/21 19:44:16 tchat: sending:1234
+2024/10/21 19:44:16 we got  tchat:received:9000:oussama
+2024/10/21 19:44:16 and it's accepted
+2024/10/21 19:44:17 tchat: sending:1234
+2024/10/21 19:44:17 we got  tchat:received:9000:oussama
+2024/10/21 19:44:17 and it's accepted
+2024/10/21 19:44:18 tchat: sending:1234
+2024/10/21 19:44:18 we got  tchat:received:9000:oussama
+2024/10/21 19:44:18 and it's accepted
+2024/10/21 19:44:19 tchat: sending:1234
+2024/10/21 19:44:19 we got  tchat:received:9000:oussama
+2024/10/21 19:44:19 and it's accepted
+2024/10/21 19:44:20 tchat: sending:1234
+2024/10/21 19:44:20 we got  tchat:received:9000:oussama
+2024/10/21 19:44:20 and it's accepted
+2024/10/21 19:44:21 tchat: sending:1234
+2024/10/21 19:44:21 we got  tchat:received:9000:oussama
+2024/10/21 19:44:21 and it's accepted
+2024/10/21 19:44:22 tchat: sending:1234
+2024/10/21 19:44:22 we got  tchat:received:9000:oussama
+2024/10/21 19:44:22 and it's accepted
+2024/10/21 19:44:23 tchat: sending:1234
+2024/10/21 19:44:23 we got  tchat:received:9000:oussama
+2024/10/21 19:44:23 and it's accepted
+2024/10/21 19:44:24 tchat: sending:1234
+2024/10/21 19:44:24 we got  tchat:received:9000:oussama
+2024/10/21 19:44:24 and it's accepted
+2024/10/21 19:44:25 tchat: sending:1234
+2024/10/21 19:44:25 we got  tchat:received:9000:oussama
+2024/10/21 19:44:25 and it's accepted
+2024/10/21 19:44:26 tchat: sending:1234
+2024/10/21 19:44:26 we got  tchat:received:9000:oussama
+2024/10/21 19:44:26 and it's accepted
+2024/10/21 19:44:27 tchat: sending:1234
+2024/10/21 19:44:27 we got  tchat:received:9000:oussama
+2024/10/21 19:44:27 and it's accepted
+2024/10/21 19:44:27 Error reading from the last connection with EOF
+2024/10/21 20:07:34 starting sending
+2024/10/21 20:07:38 starting receiving
+2024/10/21 20:07:39 tchat: sending:1234
+2024/10/21 20:07:39 we got  tchat:received:9000:oussama
+2024/10/21 20:07:39 and it's accepted
+2024/10/21 20:07:39 Added Member: oussama, address: 192.168.0.130:9000
+2024/10/21 20:07:39 we got  tchat:established:rayane
+2024/10/21 20:07:40 tchat: sending:1234
+2024/10/21 20:07:40 we got  tchat:received:9000:oussama
+2024/10/21 20:07:40 and it's accepted
+2024/10/21 20:07:41 tchat: sending:1234
+2024/10/21 20:07:41 we got  tchat:received:9000:oussama
+2024/10/21 20:07:41 and it's accepted
+2024/10/21 20:07:42 tchat: sending:1234
+2024/10/21 20:07:42 we got  tchat:received:9000:oussama
+2024/10/21 20:07:42 and it's accepted
+2024/10/21 20:07:43 tchat: sending:1234
+2024/10/21 20:07:43 we got  tchat:received:9000:oussama
+2024/10/21 20:07:43 and it's accepted
+2024/10/21 20:07:44 tchat: sending:1234
+2024/10/21 20:07:44 we got  tchat:received:9000:oussama
+2024/10/21 20:07:44 and it's accepted
+2024/10/21 20:07:45 tchat: sending:1234
+2024/10/21 20:07:45 we got  tchat:received:9000:oussama
+2024/10/21 20:07:45 and it's accepted
+2024/10/21 20:07:46 tchat: sending:1234
+2024/10/21 20:07:46 we got  tchat:received:9000:oussama
+2024/10/21 20:07:46 and it's accepted
+2024/10/21 20:07:47 ana rayane
+2024/10/21 20:07:47 tchat: sending:1234
+2024/10/21 20:07:47 we got  tchat:received:9000:oussama
+2024/10/21 20:07:47 and it's accepted
+2024/10/21 20:07:48 tchat: sending:1234
+2024/10/21 20:07:48 we got  tchat:received:9000:oussama
+2024/10/21 20:07:48 and it's accepted
+2024/10/21 20:07:49 tchat: sending:1234
+2024/10/21 20:07:49 we got  tchat:received:9000:oussama
+2024/10/21 20:07:49 and it's accepted
+2024/10/21 20:07:50 tchat: sending:1234
+2024/10/21 20:07:50 we got  tchat:received:9000:oussama
+2024/10/21 20:07:50 and it's accepted
+2024/10/21 20:07:51 tchat: sending:1234
+2024/10/21 20:07:51 we got  tchat:received:9000:oussama
+2024/10/21 20:07:51 and it's accepted
+2024/10/21 20:07:52 ana oussama
+2024/10/21 20:07:52 tchat: sending:1234
+2024/10/21 20:07:52 we got  tchat:received:9000:oussama
+2024/10/21 20:07:52 and it's accepted
+2024/10/21 20:07:53 tchat: sending:1234
+2024/10/21 20:07:53 we got  tchat:received:9000:oussama
+2024/10/21 20:07:53 and it's accepted
+2024/10/21 20:07:54 tchat: sending:1234
+2024/10/21 20:07:54 we got  tchat:received:9000:oussama
+2024/10/21 20:07:54 and it's accepted
+2024/10/21 20:07:55 tchat: sending:1234
+2024/10/21 20:07:55 we got  tchat:received:9000:oussama
+2024/10/21 20:07:55 and it's accepted
+2024/10/21 20:07:56 tchat: sending:1234
+2024/10/21 20:07:56 we got  tchat:received:9000:oussama
+2024/10/21 20:07:56 and it's accepted
+2024/10/21 20:07:57 tchat: sending:1234
+2024/10/21 20:07:57 we got  tchat:received:9000:oussama
+2024/10/21 20:07:57 and it's accepted
+2024/10/21 20:07:58 tchat: sending:1234
+2024/10/21 20:07:58 we got  tchat:received:9000:oussama
+2024/10/21 20:07:58 and it's accepted
+2024/10/21 20:07:59 dsvd
+2024/10/21 20:07:59 tchat: sending:1234
+2024/10/21 20:07:59 we got  tchat:received:9000:oussama
+2024/10/21 20:07:59 and it's accepted
+2024/10/21 20:08:00 fdgdfg
+2024/10/21 20:08:00 tchat: sending:1234
+2024/10/21 20:08:00 we got  tchat:received:9000:oussama
+2024/10/21 20:08:00 and it's accepted
+2024/10/21 20:08:00 fgdfd
+2024/10/21 20:08:01 gdfg
+2024/10/21 20:08:01 tchat: sending:1234
+2024/10/21 20:08:01 we got  tchat:received:9000:oussama
+2024/10/21 20:08:01 and it's accepted
+2024/10/21 20:08:02 fdg
+2024/10/21 20:08:02 Error reading from the last connection with EOF
+2024/10/21 20:12:39 starting receiving
+2024/10/21 20:12:41 starting sending
+2024/10/21 20:12:41 tchat: sending:1234
+2024/10/21 20:12:41 we got  tchat:received:9000:oussama
+2024/10/21 20:12:41 and it's accepted
+2024/10/21 20:12:41 Added Member: oussama, address: 192.168.0.130:9000
+2024/10/21 20:12:41 we got  tchat:established:rayane
+2024/10/21 20:12:42 tchat: sending:1234
+2024/10/21 20:12:42 we got  tchat:received:9000:oussama
+2024/10/21 20:12:42 and it's accepted
+2024/10/21 20:12:43 tchat: sending:1234
+2024/10/21 20:12:43 we got  tchat:received:9000:oussama
+2024/10/21 20:12:43 and it's accepted
+2024/10/21 20:12:44 tchat: sending:1234
+2024/10/21 20:12:44 we got  tchat:received:9000:oussama
+2024/10/21 20:12:44 and it's accepted
+2024/10/21 20:12:45 tchat: sending:1234
+2024/10/21 20:12:45 we got  tchat:received:9000:oussama
+2024/10/21 20:12:45 and it's accepted
+2024/10/21 20:12:46 tchat: sending:1234
+2024/10/21 20:12:46 we got  tchat:received:9000:oussama
+2024/10/21 20:12:46 and it's accepted
+2024/10/21 20:12:47 tchat: sending:1234
+2024/10/21 20:12:47 we got  tchat:received:9000:oussama
+2024/10/21 20:12:47 and it's accepted
+2024/10/21 20:12:48 tchat: sending:1234
+2024/10/21 20:12:48 we got  tchat:received:9000:oussama
+2024/10/21 20:12:48 and it's accepted
+2024/10/21 20:12:48 s
+2024/10/21 20:12:49 tchat: sending:1234
+2024/10/21 20:12:49 we got  tchat:received:9000:oussama
+2024/10/21 20:12:49 and it's accepted
+2024/10/21 20:12:50 tchat: sending:1234
+2024/10/21 20:12:50 we got  tchat:received:9000:oussama
+2024/10/21 20:12:50 and it's accepted
+2024/10/21 20:12:51 asd
+2024/10/21 20:12:51 sd
+2024/10/21 20:12:51 tchat: sending:1234
+2024/10/21 20:12:51 we got  tchat:received:9000:oussama
+2024/10/21 20:12:51 and it's accepted
+2024/10/21 20:12:52 s
+2024/10/21 20:12:52 s
+2024/10/21 20:12:52 d
+2024/10/21 20:12:52 ds
+2024/10/21 20:12:52 tchat: sending:1234
+2024/10/21 20:12:52 we got  tchat:received:9000:oussama
+2024/10/21 20:12:52 and it's accepted
+2024/10/21 20:12:53 sd
+2024/10/21 20:12:53 s
+2024/10/21 20:12:53 d
+2024/10/21 20:12:53 sd
+2024/10/21 20:12:53 tchat: sending:1234
+2024/10/21 20:12:53 we got  tchat:received:9000:oussama
+2024/10/21 20:12:53 and it's accepted
+2024/10/21 20:12:53 sd
+2024/10/21 20:12:54 s
+2024/10/21 20:12:54 tchat: sending:1234
+2024/10/21 20:12:54 we got  tchat:received:9000:oussama
+2024/10/21 20:12:54 and it's accepted
+2024/10/21 20:12:55 s
+2024/10/21 20:12:55 tchat: sending:1234
+2024/10/21 20:12:55 we got  tchat:received:9000:oussama
+2024/10/21 20:12:55 and it's accepted
+2024/10/21 20:12:56 tchat: sending:1234
+2024/10/21 20:12:56 we got  tchat:received:9000:oussama
+2024/10/21 20:12:56 and it's accepted
+2024/10/21 20:12:57 tchat: sending:1234
+2024/10/21 20:12:57 we got  tchat:received:9000:oussama
+2024/10/21 20:12:57 and it's accepted
+2024/10/21 20:12:58 tchat: sending:1234
+2024/10/21 20:12:58 we got  tchat:received:9000:oussama
+2024/10/21 20:12:58 and it's accepted
+2024/10/21 20:12:59 d
+2024/10/21 20:12:59 tchat: sending:1234
+2024/10/21 20:12:59 we got  tchat:received:9000:oussama
+2024/10/21 20:12:59 and it's accepted
+2024/10/21 20:13:00 tchat: sending:1234
+2024/10/21 20:13:00 we got  tchat:received:9000:oussama
+2024/10/21 20:13:00 and it's accepted
+2024/10/21 20:13:01 asas
+2024/10/21 20:13:01 tchat: sending:1234
+2024/10/21 20:13:01 we got  tchat:received:9000:oussama
+2024/10/21 20:13:01 and it's accepted
+2024/10/21 20:13:02 tchat: sending:1234
+2024/10/21 20:13:02 we got  tchat:received:9000:oussama
+2024/10/21 20:13:02 and it's accepted
+2024/10/21 20:13:03 sdsd
+2024/10/21 20:13:03 tchat: sending:1234
+2024/10/21 20:13:03 we got  tchat:received:9000:oussama
+2024/10/21 20:13:03 and it's accepted
+2024/10/21 20:13:04 sd
+2024/10/21 20:13:04 tchat: sending:1234
+2024/10/21 20:13:04 we got  tchat:received:9000:oussama
+2024/10/21 20:13:04 and it's accepted
+2024/10/21 20:13:05 sd
+2024/10/21 20:13:05 tchat: sending:1234
+2024/10/21 20:13:05 we got  tchat:received:9000:oussama
+2024/10/21 20:13:05 and it's accepted
+2024/10/21 20:13:06 sd
+2024/10/21 20:13:06 tchat: sending:1234
+2024/10/21 20:13:06 we got  tchat:received:9000:oussama
+2024/10/21 20:13:06 and it's accepted
+2024/10/21 20:13:07 ds
+2024/10/21 20:13:07 tchat: sending:1234
+2024/10/21 20:13:07 we got  tchat:received:9000:oussama
+2024/10/21 20:13:07 and it's accepted
+2024/10/21 20:13:08 sd
+2024/10/21 20:13:08 tchat: sending:1234
+2024/10/21 20:13:08 we got  tchat:received:9000:oussama
+2024/10/21 20:13:08 and it's accepted
+2024/10/21 20:13:09 sd
+2024/10/21 20:13:09 tchat: sending:1234
+2024/10/21 20:13:09 we got  tchat:received:9000:oussama
+2024/10/21 20:13:09 and it's accepted
+2024/10/21 20:13:10 tchat: sending:1234
+2024/10/21 20:13:10 we got  tchat:received:9000:oussama
+2024/10/21 20:13:10 and it's accepted
+2024/10/21 20:13:11 d
+2024/10/21 20:13:11 tchat: sending:1234
+2024/10/21 20:13:11 we got  tchat:received:9000:oussama
+2024/10/21 20:13:11 and it's accepted
+2024/10/21 20:13:12 asd
+2024/10/21 20:13:12 tchat: sending:1234
+2024/10/21 20:13:12 we got  tchat:received:9000:oussama
+2024/10/21 20:13:12 and it's accepted
+2024/10/21 20:13:13 sd
+2024/10/21 20:13:13 sd
+2024/10/21 20:13:13 tchat: sending:1234
+2024/10/21 20:13:13 we got  tchat:received:9000:oussama
+2024/10/21 20:13:13 and it's accepted
+2024/10/21 20:13:14 tchat: sending:1234
+2024/10/21 20:13:14 we got  tchat:received:9000:oussama
+2024/10/21 20:13:14 and it's accepted
+2024/10/21 20:13:15 tchat: sending:1234
+2024/10/21 20:13:15 we got  tchat:received:9000:oussama
+2024/10/21 20:13:15 and it's accepted
+2024/10/21 20:13:16 Error reading from established connection with EOF

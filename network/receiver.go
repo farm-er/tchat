@@ -88,7 +88,6 @@ func ReceiveSignals(inter chan struct{}, mainUser *user.User) error {
 
 		conn.Close()
 
-		break
 	}
 
 	log.Println("stopped receiving")
