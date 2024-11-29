@@ -1545,3 +1545,270 @@
 2024/10/21 20:13:15 we got  tchat:received:9000:oussama
 2024/10/21 20:13:15 and it's accepted
 2024/10/21 20:13:16 Error reading from established connection with EOF
+2024/10/23 09:00:43 starting receiving
+2024/11/08 14:53:07 Error initializing the serverlisten tcp :8080: bind: address already in use
+2024/11/08 14:53:33 Error initializing the serverlisten tcp :8080: bind: address already in use
+2024/11/08 14:57:34 starting sending
+2024/11/08 14:57:36 starting receiving
+2024/11/08 14:57:36 tchat: sending:1234
+2024/11/08 14:57:36 we got  tchat:received:9999:oussama
+2024/11/08 14:57:36 and it's accepted
+2024/11/08 14:57:36 Added Member: oussama, address: 10.22.129.119:9999
+2024/11/08 14:57:36 we got  tchat:established:rayane
+2024/11/08 14:57:37 tchat: sending:1234
+2024/11/08 14:57:37 we got  tchat:received:9999:oussama
+2024/11/08 14:57:37 and it's accepted
+2024/11/08 14:57:38 tchat: sending:1234
+2024/11/08 14:57:38 we got  tchat:received:9999:oussama
+2024/11/08 14:57:38 and it's accepted
+2024/11/08 14:57:39 tchat: sending:1234
+2024/11/08 14:57:39 we got  tchat:received:9999:oussama
+2024/11/08 14:57:39 and it's accepted
+2024/11/08 14:57:40 tchat: sending:1234
+2024/11/08 14:57:40 we got  tchat:received:9999:oussama
+2024/11/08 14:57:40 and it's accepted
+2024/11/08 14:57:41 tchat: sending:1234
+2024/11/08 14:57:41 we got  tchat:received:9999:oussama
+2024/11/08 14:57:41 and it's accepted
+2024/11/08 14:57:42 tchat: sending:1234
+2024/11/08 14:57:42 we got  tchat:received:9999:oussama
+2024/11/08 14:57:42 and it's accepted
+2024/11/08 14:57:43 tchat: sending:1234
+2024/11/08 14:57:43 we got  tchat:received:9999:oussama
+2024/11/08 14:57:43 and it's accepted
+2024/11/08 14:57:44 tchat: sending:1234
+2024/11/08 14:57:44 we got  tchat:received:9999:oussama
+2024/11/08 14:57:44 and it's accepted
+2024/11/08 14:57:45 tchat: sending:1234
+2024/11/08 14:57:45 we got  tchat:received:9999:oussama
+2024/11/08 14:57:45 and it's accepted
+2024/11/08 14:57:46 tchat: sending:1234
+2024/11/08 14:57:46 we got  tchat:received:9999:oussama
+2024/11/08 14:57:46 and it's accepted
+2024/11/08 14:57:47 tchat: sending:1234
+2024/11/08 14:57:47 we got  tchat:received:9999:oussama
+2024/11/08 14:57:47 and it's accepted
+2024/11/08 14:57:48 tchat: sending:1234
+2024/11/08 14:57:48 we got  tchat:received:9999:oussama
+2024/11/08 14:57:48 and it's accepted
+2024/11/08 14:57:48 oussama 
+2024/11/08 14:57:49 tchat: sending:1234
+2024/11/08 14:57:49 we got  tchat:received:9999:oussama
+2024/11/08 14:57:49 and it's accepted
+2024/11/08 14:57:50 tchat: sending:1234
+2024/11/08 14:57:50 we got  tchat:received:9999:oussama
+2024/11/08 14:57:50 and it's accepted
+2024/11/08 14:57:51 tchat: sending:1234
+2024/11/08 14:57:51 we got  tchat:received:9999:oussama
+2024/11/08 14:57:51 and it's accepted
+2024/11/08 14:57:52 tchat: sending:1234
+2024/11/08 14:57:52 we got  tchat:received:9999:oussama
+2024/11/08 14:57:52 and it's accepted
+2024/11/08 14:57:53 tchat: sending:1234
+2024/11/08 14:57:53 we got  tchat:received:9999:oussama
+2024/11/08 14:57:53 and it's accepted
+2024/11/08 14:57:54 tchat: sending:1234
+2024/11/08 14:57:54 we got  tchat:received:9999:oussama
+2024/11/08 14:57:54 and it's accepted
+2024/11/08 14:57:55 tchat: sending:1234
+2024/11/08 14:57:55 we got  tchat:received:9999:oussama
+2024/11/08 14:57:55 and it's accepted
+2024/11/08 14:57:56 tchat: sending:1234
+2024/11/08 14:57:56 we got  tchat:received:9999:oussama
+2024/11/08 14:57:56 and it's accepted
+2024/11/08 14:57:57 tchat: sending:1234
+2024/11/08 14:57:57 we got  tchat:received:9999:oussama
+2024/11/08 14:57:57 and it's accepted
+2024/11/08 14:57:58 tchat: sending:1234
+2024/11/08 14:57:58 we got  tchat:received:9999:oussama
+2024/11/08 14:57:58 and it's accepted
+2024/11/08 14:57:59 tchat: sending:1234
+2024/11/08 14:57:59 we got  tchat:received:9999:oussama
+2024/11/08 14:57:59 and it's accepted
+2024/11/08 14:58:00 tchat: sending:1234
+2024/11/08 14:58:00 we got  tchat:received:9999:oussama
+2024/11/08 14:58:00 and it's accepted
+2024/11/08 14:58:01 hello
+2024/11/08 14:58:01 tchat: sending:1234
+2024/11/08 14:58:01 we got  tchat:received:9999:oussama
+2024/11/08 14:58:01 and it's accepted
+2024/11/08 14:58:02 tchat: sending:1234
+2024/11/08 14:58:02 we got  tchat:received:9999:oussama
+2024/11/08 14:58:02 and it's accepted
+2024/11/08 14:58:03 tchat: sending:1234
+2024/11/08 14:58:03 we got  tchat:received:9999:oussama
+2024/11/08 14:58:03 and it's accepted
+2024/11/08 14:58:04 tchat: sending:1234
+2024/11/08 14:58:04 we got  tchat:received:9999:oussama
+2024/11/08 14:58:04 and it's accepted
+2024/11/08 14:58:05 tchat: sending:1234
+2024/11/08 14:58:05 we got  tchat:received:9999:oussama
+2024/11/08 14:58:05 and it's accepted
+2024/11/08 14:58:06 tchat: sending:1234
+2024/11/08 14:58:06 we got  tchat:received:9999:oussama
+2024/11/08 14:58:06 and it's accepted
+2024/11/08 14:58:07 tchat: sending:1234
+2024/11/08 14:58:07 we got  tchat:received:9999:oussama
+2024/11/08 14:58:07 and it's accepted
+2024/11/08 14:58:08 tchat: sending:1234
+2024/11/08 14:58:08 we got  tchat:received:9999:oussama
+2024/11/08 14:58:08 and it's accepted
+2024/11/08 14:58:09 slkjdskjahfk
+2024/11/08 14:58:09 tchat: sending:1234
+2024/11/08 14:58:09 we got  tchat:received:9999:oussama
+2024/11/08 14:58:09 and it's accepted
+2024/11/08 14:58:10 tchat: sending:1234
+2024/11/08 14:58:10 we got  tchat:received:9999:oussama
+2024/11/08 14:58:10 and it's accepted
+2024/11/08 14:58:11 tchat: sending:1234
+2024/11/08 14:58:11 we got  tchat:received:9999:oussama
+2024/11/08 14:58:11 and it's accepted
+2024/11/08 14:58:12 tchat: sending:1234
+2024/11/08 14:58:12 we got  tchat:received:9999:oussama
+2024/11/08 14:58:12 and it's accepted
+2024/11/08 14:58:13 tchat: sending:1234
+2024/11/08 14:58:13 we got  tchat:received:9999:oussama
+2024/11/08 14:58:13 and it's accepted
+2024/11/08 14:58:14 tchat: sending:1234
+2024/11/08 14:58:14 we got  tchat:received:9999:oussama
+2024/11/08 14:58:14 and it's accepted
+2024/11/08 14:58:15 tchat: sending:1234
+2024/11/08 14:58:15 we got  tchat:received:9999:oussama
+2024/11/08 14:58:15 and it's accepted
+2024/11/08 14:58:16 tchat: sending:1234
+2024/11/08 14:58:16 we got  tchat:received:9999:oussama
+2024/11/08 14:58:16 and it's accepted
+2024/11/08 14:58:17 tchat: sending:1234
+2024/11/08 14:58:17 we got  tchat:received:9999:oussama
+2024/11/08 14:58:17 and it's accepted
+2024/11/08 14:58:18 tchat: sending:1234
+2024/11/08 14:58:18 we got  tchat:received:9999:oussama
+2024/11/08 14:58:18 and it's accepted
+2024/11/08 14:58:19 tchat: sending:1234
+2024/11/08 14:58:19 we got  tchat:received:9999:oussama
+2024/11/08 14:58:19 and it's accepted
+2024/11/08 14:58:20 tchat: sending:1234
+2024/11/08 14:58:20 we got  tchat:received:9999:oussama
+2024/11/08 14:58:20 and it's accepted
+2024/11/08 14:58:21 tchat: sending:1234
+2024/11/08 14:58:21 we got  tchat:received:9999:oussama
+2024/11/08 14:58:21 and it's accepted
+2024/11/08 14:58:22 tchat: sending:1234
+2024/11/08 14:58:22 we got  tchat:received:9999:oussama
+2024/11/08 14:58:22 and it's accepted
+2024/11/08 14:58:23 tchat: sending:1234
+2024/11/08 14:58:23 we got  tchat:received:9999:oussama
+2024/11/08 14:58:23 and it's accepted
+2024/11/08 14:58:23 ddcbfb
+2024/11/08 14:58:24 df
+2024/11/08 14:58:24 tchat: sending:1234
+2024/11/08 14:58:24 we got  tchat:received:9999:oussama
+2024/11/08 14:58:24 and it's accepted
+2024/11/08 14:58:25 dfsd
+2024/11/08 14:58:25 f
+2024/11/08 14:58:25 dsf
+2024/11/08 14:58:25 tchat: sending:1234
+2024/11/08 14:58:25 we got  tchat:received:9999:oussama
+2024/11/08 14:58:25 and it's accepted
+2024/11/08 14:58:25 dsf
+2024/11/08 14:58:26 df
+2024/11/08 14:58:26 df
+2024/11/08 14:58:26 tchat: sending:1234
+2024/11/08 14:58:26 we got  tchat:received:9999:oussama
+2024/11/08 14:58:26 and it's accepted
+2024/11/08 14:58:27 tchat: sending:1234
+2024/11/08 14:58:27 we got  tchat:received:9999:oussama
+2024/11/08 14:58:27 and it's accepted
+2024/11/08 14:58:28 tchat: sending:1234
+2024/11/08 14:58:28 we got  tchat:received:9999:oussama
+2024/11/08 14:58:28 and it's accepted
+2024/11/08 14:58:29 tchat: sending:1234
+2024/11/08 14:58:29 we got  tchat:received:9999:oussama
+2024/11/08 14:58:29 and it's accepted
+2024/11/08 14:58:30 dfsdf
+2024/11/08 14:58:30 tchat: sending:1234
+2024/11/08 14:58:30 we got  tchat:received:9999:oussama
+2024/11/08 14:58:30 and it's accepted
+2024/11/08 14:58:31 sdfd
+2024/11/08 14:58:31 f
+2024/11/08 14:58:31 tchat: sending:1234
+2024/11/08 14:58:31 we got  tchat:received:9999:oussama
+2024/11/08 14:58:31 and it's accepted
+2024/11/08 14:58:31 sf
+2024/11/08 14:58:32 sdf
+2024/11/08 14:58:32 tchat: sending:1234
+2024/11/08 14:58:32 we got  tchat:received:9999:oussama
+2024/11/08 14:58:32 and it's accepted
+2024/11/08 14:58:33 dsf
+2024/11/08 14:58:33 tchat: sending:1234
+2024/11/08 14:58:33 we got  tchat:received:9999:oussama
+2024/11/08 14:58:33 and it's accepted
+2024/11/08 14:58:34 sfd
+2024/11/08 14:58:34 tchat: sending:1234
+2024/11/08 14:58:34 we got  tchat:received:9999:oussama
+2024/11/08 14:58:34 and it's accepted
+2024/11/08 14:58:35 tchat: sending:1234
+2024/11/08 14:58:35 we got  tchat:received:9999:oussama
+2024/11/08 14:58:35 and it's accepted
+2024/11/08 14:58:36 tchat: sending:1234
+2024/11/08 14:58:36 we got  tchat:received:9999:oussama
+2024/11/08 14:58:36 and it's accepted
+2024/11/08 14:58:37 tchat: sending:1234
+2024/11/08 14:58:37 we got  tchat:received:9999:oussama
+2024/11/08 14:58:37 and it's accepted
+2024/11/08 14:58:37 sadsd
+2024/11/08 14:58:38 tchat: sending:1234
+2024/11/08 14:58:38 we got  tchat:received:9999:oussama
+2024/11/08 14:58:38 and it's accepted
+2024/11/08 14:58:39 tchat: sending:1234
+2024/11/08 14:58:39 we got  tchat:received:9999:oussama
+2024/11/08 14:58:39 and it's accepted
+2024/11/08 14:58:40 tchat: sending:1234
+2024/11/08 14:58:40 we got  tchat:received:9999:oussama
+2024/11/08 14:58:40 and it's accepted
+2024/11/08 14:58:41 tchat: sending:1234
+2024/11/08 14:58:41 we got  tchat:received:9999:oussama
+2024/11/08 14:58:41 and it's accepted
+2024/11/08 14:58:42 tchat: sending:1234
+2024/11/08 14:58:42 we got  tchat:received:9999:oussama
+2024/11/08 14:58:42 and it's accepted
+2024/11/08 14:58:43 tchat: sending:1234
+2024/11/08 14:58:43 we got  tchat:received:9999:oussama
+2024/11/08 14:58:43 and it's accepted
+2024/11/08 14:58:44 tchat: sending:1234
+2024/11/08 14:58:44 we got  tchat:received:9999:oussama
+2024/11/08 14:58:44 and it's accepted
+2024/11/08 14:58:45 tchat: sending:1234
+2024/11/08 14:58:45 we got  tchat:received:9999:oussama
+2024/11/08 14:58:45 and it's accepted
+2024/11/08 14:58:46 tchat: sending:1234
+2024/11/08 14:58:46 we got  tchat:received:9999:oussama
+2024/11/08 14:58:46 and it's accepted
+2024/11/08 14:58:47 tchat: sending:1234
+2024/11/08 14:58:47 we got  tchat:received:9999:oussama
+2024/11/08 14:58:47 and it's accepted
+2024/11/08 14:58:48 tchat: sending:1234
+2024/11/08 14:58:48 we got  tchat:received:9999:oussama
+2024/11/08 14:58:48 and it's accepted
+2024/11/08 14:58:49 tchat: sending:1234
+2024/11/08 14:58:49 we got  tchat:received:9999:oussama
+2024/11/08 14:58:49 and it's accepted
+2024/11/08 14:58:50 tchat: sending:1234
+2024/11/08 14:58:50 we got  tchat:received:9999:oussama
+2024/11/08 14:58:50 and it's accepted
+2024/11/08 14:58:51 tchat: sending:1234
+2024/11/08 14:58:51 we got  tchat:received:9999:oussama
+2024/11/08 14:58:51 and it's accepted
+2024/11/08 14:58:52 tchat: sending:1234
+2024/11/08 14:58:52 we got  tchat:received:9999:oussama
+2024/11/08 14:58:52 and it's accepted
+2024/11/08 14:58:53 tchat: sending:1234
+2024/11/08 14:58:53 we got  tchat:received:9999:oussama
+2024/11/08 14:58:53 and it's accepted
+2024/11/08 14:58:54 tchat: sending:1234
+2024/11/08 14:58:54 we got  tchat:received:9999:oussama
+2024/11/08 14:58:54 and it's accepted
+2024/11/08 14:58:55 tchat: sending:1234
+2024/11/08 14:58:55 we got  tchat:received:9999:oussama
+2024/11/08 14:58:55 and it's accepted
+2024/11/08 14:58:55 Error reading from established connection with EOF

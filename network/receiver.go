@@ -10,6 +10,8 @@ import (
 	"github.com/farm-er/tchat/user"
 )
 
+// BUG: when the device is not connected the program crashes 
+
 // this function will receive signals
 // and respond with a special message so that they know we can chat
 func ReceiveSignals(inter chan struct{}, mainUser *user.User) error {
